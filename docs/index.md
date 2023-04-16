@@ -1,4 +1,8 @@
-# 2023-1-MeasureSoftGram-Doc
+# MeasureSoftGram
+
+<p align="justify" style="text-indent: 20px">
+    Wiki destinada ao projeto MeasureSoftGram contendo toda a documentação relativa à disciplina de Engenharia de Produto de Software (EPS) durante o semestre de 2023-2, ministrada pelo professor Hilmer Rodrigues Neri da Universidade de Brasília - Gama.
+</p>
 
 ## Equipe
 
