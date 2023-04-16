@@ -107,8 +107,6 @@
                 <h5 class="text-center">Washington Bispo Arishita Júnior </h5>
             </a>
         </td>
-        <td></td>
-        <td></td>
     </tr>
 
 </table>
