@@ -16,3 +16,4 @@ markdown_extensions:
 
 nav:
     - Home: index.md
+    - Guia de contribuicao: guia_contribuicao/como_contribuir.md
