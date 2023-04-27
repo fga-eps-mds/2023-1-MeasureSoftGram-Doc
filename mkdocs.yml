@@ -2,18 +2,21 @@ site_name: 2023-1 MeasureSoftGram
 repo_url: https://github.com/fga-eps-mds/2023-1-MeasureSoftGram-Doc
 
 theme:
-    name: material
-    features: navigation.tabs
-    logo: assets/logo.svg
-    favicon: assets/logo.svg
-    palette:
-        primary: blue grey
+  name: material
+  features: navigation.tabs
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+  palette:
+    primary: blue grey
 
 markdown_extensions:
-    - admonition
-    - pymdownx.details
-    - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 nav:
-    - Home: index.md
-    - Guia de contribuicao: guia_contribuicao/como_contribuir.md
+  - Home: index.md
+  - Guia de contribuicao:
+      - Como contribuir: guia_contribuicao/como_contribuir.md
+      - Política de Commits: guia_contribuicao/commits.md
+      - Código de conduta: guia_contribuicao/CODE_OF_CONDUCT.md
