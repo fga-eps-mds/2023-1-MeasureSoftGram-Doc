@@ -16,3 +16,6 @@ markdown_extensions:
 
 nav:
     - Home: index.md
+    - Heatmap e Tabela de Conhecimento:
+        - Heatmap: heatmap_knowledge-table/heatmap.md
+        - Tabela de Conhecimento: heatmap_knowledge-table/knowledge_table.md
