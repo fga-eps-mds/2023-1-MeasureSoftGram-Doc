@@ -18,5 +18,6 @@ nav:
   - Home: index.md
   - Guia de contribuicao:
       - Como contribuir: guia_contribuicao/como_contribuir.md
+      - Política de Branches: guia_contribuicao/branches.md
       - Política de Commits: guia_contribuicao/commits.md
       - Código de conduta: guia_contribuicao/CODE_OF_CONDUCT.md
