@@ -4,15 +4,16 @@
 |--|--|--|--|
 |1.0| 25/04/2023 | Criação do documento | Carlos Eduardo de S. Fiuza |
 |1.1| 25/04/2023 | Adição dos tópicos | Carlos Eduardo de S. Fiuza e Jonathan Oliveira |
+|1.2| 30/04/2023 | Adição de hyperlinks | Carlos Eduardo de S. Fiuza e Jonathan Oliveira |
 
 ## Para contribuir
 <p align="justify" style="text-indent: 20px">
     É necessário estar atento e seguir as políticas do projeto, sendo elas:
 </p>
 
-- Política de branches;
-- Política de commits;
-- Código de conduta;
+- <a href="../branches" target="_blank">Política de branches</a>;
+- <a href="../commits" target="_blank">Política de commits</a>;
+- <a href="../CODE_OF_CONDUCT" target="_blank">Código de conduta</a>; 
 - Critérios de aceitação da issue associada;
 - Implementação de testes sobre o código adicionado (quando aplicável).
 
