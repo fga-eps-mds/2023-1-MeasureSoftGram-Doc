@@ -16,3 +16,4 @@ markdown_extensions:
 
 nav:
     - Home: index.md
+    - Plano de custos: documents/plano_de_custos.md
