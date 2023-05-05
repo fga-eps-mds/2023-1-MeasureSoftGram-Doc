@@ -27,9 +27,9 @@ Tem um formato pré-definido, que inclui um **tipo** e um **título**:
 Exemplos:
 
   ```bash
-  fix(integracao-erp): corrige erro ao buscar dados de clientes
-  improve(app-toolbox): melhora performance de busca de dados
-  docs: adiciona instruções de iniciar projeto com docker
+  fix(integration-erp): fix error fetching customer data
+  improve(app-toolbox): improves data search performance
+  docs: add docker project start instructions
   ```
 
 O **cabeçalho** é obrigatório.
@@ -58,7 +58,7 @@ Deve ser um dos seguintes:
 
 O título contém uma descrição sucinta da mudança:
 
-* use o imperativo, tempo presente: "muda" não "mudou" nem "mudança"
+* use o imperativo, tempo presente: "change" ou "changes" não "changed" nem "changeover".
 * não capitalize a primeira letra
 * sem ponto (.) no final
 
@@ -88,19 +88,20 @@ O rodapé também pode ser utilizado quando o commit tiver múltiplos responsáv
 
 Se o commit reverte um commit anterior, ele deve começar por `revert:`, seguido pelo cabeçalho do commit revertido.
 
-No corpo, ele deve dizer: `Isso reverte o commit <hash> .`, onde o hash é o SHA do commit sendo revertido.
+No corpo, ele deve dizer: `This reverts commit <hash>.`, onde o hash é o SHA do commit sendo revertido.
 
 **Observações**
 
-1. O _commits_ deve estar em português e ser sucinto e objetivo, representando claramente o que está sendo alterado naquele _commit_.
+1. O _commits_ deve estar em inglês e ser sucinto e objetivo, representando claramente o que está sendo alterado naquele _commit_.
 
 2. Um link precisa ser adicionado em sua forma mais autêntica, ou seja: sem encurtadores de link e links afiliados
 
 3. O commit deve ser feito com o tipo mais adequado para o tipo de alteração realizada.
 
-4. A descrição do commit deverá ser feitas no imperativo ao invés do pretérito. Para auxiliar, a frase a seguir pode ajudar a elaborar a descrição do commit: "Se aplicado, esse commit <descrição>"
+4. A descrição do commit deverá ser feitas no imperativo ao invés do pretérito ou gerúndio. Para auxiliar, a frase a seguir pode ajudar a elaborar a descrição do commit: "Se aplicado, esse commit <descrição>"
+      1. Em inglês _If applied, this commit will <your subject line here\>_
 
-      1. Aplicando o exemplo de um commit de criação de um novo módulo, a descrição deve ser: “Cria novo módulo”.
+      2. Aplicando o exemplo de um commit de criação de um novo módulo, a descrição deve ser: “create new module”.
 
 ### Pré-commits
 
