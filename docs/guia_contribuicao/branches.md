@@ -4,6 +4,7 @@
 |--|--|--|--|
 |1.0| 30/04/2023 | Criação do documento | Carlos Eduardo de S. Fiuza |
 |1.1| 30/04/2023 | Adição dos tópicos | Carlos Eduardo de S. Fiuza e Jonathan Oliveira |
+|1.1| 05/05/2023 | Revisão do documento | Paulo Batista, Davi Matheus e Luis Marques |
 
 ## Para o repositório Doc
 

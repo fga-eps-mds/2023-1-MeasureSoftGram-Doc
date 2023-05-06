@@ -5,6 +5,7 @@
 |1.0| 25/04/2023 | Criação do documento | Carlos Eduardo de S. Fiuza |
 |1.1| 25/04/2023 | Adição dos tópicos | Carlos Eduardo de S. Fiuza e Jonathan Oliveira |
 |1.2| 30/04/2023 | Adição de hyperlinks | Carlos Eduardo de S. Fiuza e Jonathan Oliveira |
+|1.2| 05/05/2023 | Revisão do documento | Paulo Batista, Davi Matheus e Luis Marques |
 
 ## Para contribuir
 <p align="justify" style="text-indent: 20px">

@@ -5,6 +5,7 @@
 | Versão | Data | Modificação | Autor |
 |--|--|--|--|
 |1.0| 27/04/2023 | Criação do documento | Carlos Eduardo de S. Fiuza e Jonathan Oliveira |
+|1.0| 05/05/2023 | Revisão do documento | Paulo Batista, Davi Matheus e Luis Marques |
 
 Os padrões de commits foram definidos pelo time, conforme o padrão [Conventional Commits](https://conventionalcommits.org/).
 
