@@ -64,10 +64,6 @@ Antes de inicializar o desenvolvimento, diversas reuniões e atividades foram re
 | Lean Inception | 15                   | 10                      | 3                   | 30                                             | R$ 6534,00  |
 | Prototipagem   | 3                    | -                       | -                   | 50                                             | R$ 2178,00  |
 
-## Planilha do EVM
-
-
-
 ## Referência
 
 [1] Portas abertas ao cidadão. Dísponivel em: https://www.correiobraziliense.com.br/app/noticia/eu-estudante/ensino_ensinosuperior/2015/03/05/ensino_ensinosuperior_interna,474102/portas-abertas-ao-cidadao.shtml. Acesso em 04/04/2023.
