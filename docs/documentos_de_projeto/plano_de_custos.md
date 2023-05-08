@@ -66,6 +66,8 @@ Antes de inicializar o desenvolvimento, diversas reuniões e atividades foram re
 
 ## Planilha do EVM
 
+
+
 ## Referência
 
 [1] Portas abertas ao cidadão. Dísponivel em: https://www.correiobraziliense.com.br/app/noticia/eu-estudante/ensino_ensinosuperior/2015/03/05/ensino_ensinosuperior_interna,474102/portas-abertas-ao-cidadao.shtml. Acesso em 04/04/2023.

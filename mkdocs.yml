@@ -16,4 +16,10 @@ markdown_extensions:
 
 nav:
     - Home: index.md
-    - Plano de custos: documents/plano_de_custos.md
+    - Guia de contribuicao:
+          - Como contribuir: guia_contribuicao/como_contribuir.md
+          - Política de Branches: guia_contribuicao/branches.md
+          - Política de Commits: guia_contribuicao/commits.md
+          - Código de conduta: guia_contribuicao/CODE_OF_CONDUCT.md
+    - Plano e monitoramento:
+          - Plano de custos: documentos_de_projeto/plano_de_custos.md
