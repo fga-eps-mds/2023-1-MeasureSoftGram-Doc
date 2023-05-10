@@ -1,5 +1,13 @@
 # Plano de Comunicação e Heatmap
 
+## Histórico de versão
+
+|       Data        |      Autor       |   Descrição da revisão   | Versão |
+| :---------------: | :--------------: | :----------------------: | :----: |
+| 28 de Abril de 2023 | **Phillipe** | Inclusão da documentação | 1.0.0  |
+| 10 de Maio de 2023 | **Paulo** | Adição do quadro de histórico de versão | 1.1.0  |
+| 10 de Maio de 2023 | **Paulo** | Revisão do documento | 1.1.0  |
+
 ## Introdução
 
 Este documento tem como objetivo ilustras como será feita a comunicação entre os membros da equipe e o cliente, bem como a frequência das reuniões e as ferramentas utilizadas para a comunicação.
