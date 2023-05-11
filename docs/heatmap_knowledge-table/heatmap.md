@@ -8,6 +8,7 @@
 | 10 de Maio de 2023 | **Paulo** | Adição do quadro de histórico de versão | 1.1.0  |
 | 10 de Maio de 2023 | **Paulo** | Revisão do documento | 1.1.0  |
 | 11 de Maio de 2023 | **Adrian**| Fix gramática e adição da planning | 1.1.1  |
+| 10 de Maio de 2023 | **Adrian** | Revisão do documento | 1.2.0  |
 
 ## Introdução
 
