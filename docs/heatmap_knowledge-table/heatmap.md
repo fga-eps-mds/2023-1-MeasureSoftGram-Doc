@@ -7,10 +7,11 @@
 | 28 de Abril de 2023 | **Phillipe** | Inclusão da documentação | 1.0.0  |
 | 10 de Maio de 2023 | **Paulo** | Adição do quadro de histórico de versão | 1.1.0  |
 | 10 de Maio de 2023 | **Paulo** | Revisão do documento | 1.1.0  |
+| 11 de Maio de 2023 | **Adrian**| Fix gramática e adição da planning | 1.1.1  |
 
 ## Introdução
 
-Este documento tem como objetivo ilustras como será feita a comunicação entre os membros da equipe e o cliente, bem como a frequência das reuniões e as ferramentas utilizadas para a comunicação.
+Este documento tem como objetivo ilustrar como será feita a comunicação entre os membros da equipe e o cliente, bem como a frequência das reuniões e as ferramentas utilizadas para a comunicação.
 
 ## Heatmap
 
@@ -20,10 +21,13 @@ A seguir é possível visualizar o Heatmap, ou mapa de calor, da disponibilidade
 
 ## Cadência das Reuniões
 
-Por tratar-se de um time com muitos membros, encontrar um horário comum onde todos estivessem presentes se fez inviável, tendo isso em mente, foi decidido, em conjunto com o cliente, que o melhor horário para as reuniões seriam aquele onde houvesse o maior quórum possível. Ainda por conta do tamanho do time, foi determinado que as reuniões ocorreriam de forma dinâmica, ou seja, ocorreriam de acordo com a necessidade do time e dos alinhamentos a serem realizados.
+Por tratar-se de um time com muitos membros, encontrar um horário comum onde todos estivessem presentes se fez inviável. Tendo isso em mente, foi decidido, em conjunto com o cliente, que o melhor horário para as reuniões seriam aquele onde houvesse o maior quórum possível. Ainda por conta do tamanho do time, foi determinado que as reuniões ocorreriam de forma dinâmica, ou seja, ocorreriam de acordo com a necessidade do time e dos alinhamentos a serem realizados.
 
 - Reuniões com o cliente: Segundas-feiras, às 19h00min (Remota).
 - Reuniões do time: Dias e horários a serem definidos de acordo com a necessidade (Remota ou Presencial).
+- Reuniões de planning / review: Segundas-feiras, às 20h00min (Remota).
+
+As reuniões possuem, salvo excessões, duração de 1h.
 
 ## Ferramentas Utilizadas na Comunicação
 
