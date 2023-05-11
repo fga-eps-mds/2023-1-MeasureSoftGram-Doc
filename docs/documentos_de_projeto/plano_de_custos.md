@@ -5,6 +5,7 @@
 |       Data        |      Autor       |   Descrição da revisão   | Versão |
 | :---------------: | :--------------: | :----------------------: | :----: |
 | 2 de Maio de 2023 | **Luis Marques** | Inclusão da documentação | 1.0.0  |
+| 11 de Maio de 2023| **Luis Marques**| Inclusão de EVM | 1.1.0|
 
 ## Objetivo do documento
 
@@ -63,6 +64,10 @@ Antes de inicializar o desenvolvimento, diversas reuniões e atividades foram re
 | -------------- | -------------------- | ----------------------- | ------------------- | ---------------------------------------------- | ----------- |
 | Lean Inception | 15                   | 10                      | 3                   | 30                                             | R$ 6534,00  |
 | Prototipagem   | 3                    | -                       | -                   | 50                                             | R$ 2178,00  |
+
+## Planilha EVM
+
+<iframe width="682" height="350" frameborder="0" scrolling="no" src="https://unbbr-my.sharepoint.com/:x:/g/personal/180105604_aluno_unb_br/EZAonumg2YpJm5j6XEbizsAB_ilnv9SJqEHfi5LifE4QAQ?e=7S7FLw&nav=MTJfQTE6RTE2X3swMDAwMDAwMC0wMDAxLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDB9&action=embedview&wdAllowInteractivity=False&Item='Sheet1'!A1%3AE16&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True&edesNext=false&resen=true&ed1JS=false"></iframe>
 
 ## Referência
 
