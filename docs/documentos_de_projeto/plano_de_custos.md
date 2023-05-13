@@ -2,10 +2,11 @@
 
 ## Histórico de versão
 
-|       Data        |      Autor       |   Descrição da revisão   | Versão |
-| :---------------: | :--------------: | :----------------------: | :----: |
-| 2 de Maio de 2023 | **Luis Marques** | Inclusão da documentação | 1.0.0  |
-| 11 de Maio de 2023| **Luis Marques**| Inclusão de EVM | 1.1.0|
+|        Data        |      Autor       |                  Descrição da revisão                  | Versão |
+| :----------------: | :--------------: | :----------------------------------------------------: | :----: |
+| 2 de Maio de 2023  | **Luis Marques** |                Inclusão da documentação                | 1.0.0  |
+| 11 de Maio de 2023 | **Luis Marques** |                    Inclusão de EVM                     | 1.1.0  |
+| 12 de Maio de 2023 | **Luis Marques** | Inclusão de descrição de EVM e link de tabela completa | 1.1.1  |
 
 ## Objetivo do documento
 
@@ -65,9 +66,25 @@ Antes de inicializar o desenvolvimento, diversas reuniões e atividades foram re
 | Lean Inception | 15                   | 10                      | 3                   | 30                                             | R$ 6534,00  |
 | Prototipagem   | 3                    | -                       | -                   | 50                                             | R$ 2178,00  |
 
-## Planilha EVM
+## EVM
+
+Earned Value Management (EVM), também conhecido como Gerenciamento do Valor Agregado, é uma técnica de gerenciamento de projetos amplamente utilizada para medir o desempenho real de um projeto em relação ao planejamento inicial. O EVM integra informações sobre custo, cronograma e desempenho técnico para fornecer uma visão abrangente do progresso do projeto.
+
+Para o cálculo do EVM, foram utilizadas as seguintes fórmulas:
+
+-   **Valor Planejado (PV)**: Valor orçado para o trabalho planejado para ser realizado em uma atividade ou pacote de trabalho, expresso em termos de orçamento autorizado.
+
+    -   **Fórmula**: PV = BAC \* % planejado
+        -   **Onde**:
+            -   **BAC**: Custo orçado do projeto
+            -   **% planejado**: Porcentagem planejada para o trabalho a ser realizado
+            -   **PV**: Valor Planejado
+
+O sumário do valor planejado pode ser visto na tabela a seguir:
 
 <iframe width="682" height="350" frameborder="0" scrolling="no" src="https://unbbr-my.sharepoint.com/:x:/g/personal/180105604_aluno_unb_br/EZAonumg2YpJm5j6XEbizsAB_ilnv9SJqEHfi5LifE4QAQ?e=7S7FLw&nav=MTJfQTE6RTE2X3swMDAwMDAwMC0wMDAxLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDB9&action=embedview&wdAllowInteractivity=False&Item='Sheet1'!A1%3AE16&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True&edesNext=false&resen=true&ed1JS=false"></iframe>
+
+Para analisar os dados completos do projeto pode-se analisar nesse [link](https://unbbr-my.sharepoint.com/:x:/g/personal/180105604_aluno_unb_br/EZAonumg2YpJm5j6XEbizsAB_ilnv9SJqEHfi5LifE4QAQ?e=0bfKN6)
 
 ## Referência
 
