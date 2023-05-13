@@ -7,6 +7,7 @@
 | 2 de Maio de 2023  | **Luis Marques** |                Inclusão da documentação                | 1.0.0  |
 | 11 de Maio de 2023 | **Luis Marques** |                    Inclusão de EVM                     | 1.1.0  |
 | 12 de Maio de 2023 | **Luis Marques** | Inclusão de descrição de EVM e link de tabela completa | 1.1.1  |
+| 13 de Maio de 2023 | **Paulo Batista** | Revisão do documento | 1.1.1  |
 
 ## Objetivo do documento
 
@@ -23,7 +24,7 @@ Uma vez que esse valor é referente ao ano de 2016, e desde então houve inflaç
 
 Desta forma, dividindo o custo anual por 12 para encontrar o custo mensal de um ano da UnB, temos que o custo mensal é de R$ 6097,38. E considerando que em média um aluno de graduação da Universidade de Brasília cursa 7 disciplinas por ano, o custo de um aluno por disciplina é de R$ 871,06. Uma vez que a discplina de EPS possui 60 horas de aula, o custo de um aluno por hora é de R$ 14,52.
 
-Considerando que cada membro do grupo irá trabalhar em média 40 horas por mês no projeto, e que o o projeto tem duração de 4 meses e possui 15 membros, é estimado que o custo total no desenvolvimento do projeto seja aproximadamente R$ 34848,00.
+Considerando que cada membro do grupo irá trabalhar em média 40 horas por mês no projeto, e que o o projeto tem duração de 4 meses e possui 15 membros, em que o custo por hora para cada membro seja de R$ 14,52, é estimado que o custo total no desenvolvimento do projeto seja aproximadamente R$ 34848,00.
 
 ## Custo de internet
 
