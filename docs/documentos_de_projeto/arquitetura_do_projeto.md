@@ -2,9 +2,10 @@
 
 ## Versionamento
 
-| Data | Versão | Descrição | Autor(es) |
-|------|------|------|------|
-|15/05/2023|1.0|Criação do documento| Paulo Batista e Igor |
+| Versão | Data | Modificação | Autor |
+|--|--|--|--|
+|1.0| 15/05/2023 | Criação do documento | Paulo Batista e Igor Lima |
+|1.1| 17/05/2023 | Atualização da definição de linguagens e tecnologias utilizadas | Paulo Batista e Igor Lima |
 
 
 ## Introdução
@@ -24,25 +25,25 @@
 
 ### Linguagens
 
-- **Python**: Uma linguagem de programação de alto nível que permite a estabilidade do projeto com alta escalabilidade. Ele pode ser usado para criar interfaces simples em terminais de computadores.
+- **Python**: Uma linguagem de programação poderosa, flexível e de fácil aprendizado, que é amplamente utilizada devido à sua legibilidade, produtividade e capacidade de integração com outros sistemas. [<a href=./#referencia>1</a>]
 
-- **JavaScript/TypeScript**: Uma linguagem de programação de alto nível que é interpretada de forma estruturada. JavaScript é uma das três principais tecnologias da World Wide Web, junto com HTML e CSS. Usaremos TypeScript, que estende o JavaScript com digitação estática opcional.
+- **JavaScript/TypeScript**: Uma linguagem de programação que permite a você implementar itens complexos em páginas web, como conteúdos que se atualiza em um intervalo de tempo, mapas interativos ou gráficos 2D/3D animados, etc. É a terceira camada do bolo das tecnologias padrões da web (HTML, CSS e Javascript). TypeScript por sua vez é uma linguagem de programação fortemente tipada que se baseia em JavaScript, oferecendo melhores ferramentas em qualquer escala. [<a href=./#referencia>2</a>] [<a href=./#referencia>3</a>]
 
 #### Tecnologias
 
-- **React**: Um framework em JavaScript que suporta TypeScript, desenvolvida pelo Facebook. Proporciona o desenvolvimento de sites com mais facilidade e rapidez do que os tradicionais HTML, CSS e JavaScript.
+- **React**: Uma biblioteca utilizada para desenvolvimento de interfaces de usuário nativas e web. Essa ferramenta proporciona o desenvolvimento de sites com mais facilidade e rapidez em relação aos tradicionais HTML, CSS e JavaScript. [<a href=./#referencia>4</a>]
 
-- **Next.js**: Uma estrutura da Web de desenvolvimento front-end React de código aberto criada pela Vercel, que permite geração de sites estáticos para aplicativos da Web baseados em React e recursos como renderização do lado do servidor.
+- **Next.js**: Um framework de código aberto criado pela Vercel que estende os recursos do React. Com essa ferramenta, é possível usufruir de recursos como geração de páginas estáticas e renderização do lado do servidor, otimizando o desenvolvimento Web. [<a href=./#referencia>5</a>]
 
-- **Django**: um Framework open source baseado em Python. Altamente escalável e robusto, foi projetado para resolver problemas comuns durante o desenvolvimento web, disponibilizando diversas facilidades como: ORM, autenticação, rotas, e <i>migrations</i> [<a href=./#referencia>1</a>].
+- **Django**: Um framework web Python de alto nível que incentiva o desenvolvimento rápido e um design limpo e pragmático. Construído por desenvolvedores experientes, ele cuida de grande parte do incômodo do desenvolvimento da Web, para que você possa se concentrar em escrever seu aplicativo sem precisar reinventar a roda. É gratuito e de código aberto. [<a href=./#referencia>6</a>]
 
-- **Jupyter Notebook**: Uma ferramenta open source para criar e editar Notebooks. Sendo uma tecnologia baseada em Python.
+- **Jupyter Notebook**: Um aplicativo baseado na Web para a criação de documentos que combinam código (Python) ao vivo com texto narrativo, equações e visualizações. [<a href=./#referencia>7</a>]
 
-- **PyPI**: O Python Package Index [<a href=./#referencia>2</a>] é um repositório para armazenar pacotes de código escritos na linguagem de programação **Python**.
+- **PyPI**: O Python Package Index é um repositório para armazenar pacotes de código escritos na linguagem de programação Python. [<a href=./#referencia>8</a>]
 
 #### Banco de dados
 
-- **PostgreSQL**: Um sistema de gerenciamento de banco de dados relacional de software livre. Tem a capacidade de gerir os dados de forma organizada e eficaz.
+- **PostgreSQL**: Um poderoso sistema de banco de dados objeto-relacional de código aberto com mais de 35 anos de desenvolvimento ativo que lhe rendeu uma forte reputação de confiabilidade, robustez de recursos e desempenho. [<a href=./#referencia>9</a>]
 
 #### Serviços
 
@@ -85,8 +86,22 @@
 
 ## Referências
 
-> [1] ROVEDA, Ugo; <b>O que é Django, para que serve e como usar este framework</b>. Disponível em: < [https://kenzie.com.br/blog/django](https://kenzie.com.br/blog/django) > Acesso em: 28 de Novembro de 2022
+> [1] <b>What is Python? Executive Summary</b>. Disponível em: < [https://www.python.org/doc/essays/blurb/](https://www.python.org/doc/essays/blurb/) > Acesso em: 17 de Maio de 2023
 
-> [2] <b>Python Package Index Org</b>. Disponível em: < [https://pypi.org/.](https://pypi.org/.) > Acesso em: 28 de Novembro de 2022
+> [2] <b>O que é JavaScript?</b>. Disponível em: < [https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/What_is_JavaScript](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/What_is_JavaScript) > Acesso em: 17 de Maio de 2023
+
+> [3] <b>TypeScript is JavaScript with syntax for types</b>. Disponível em: < [https://www.typescriptlang.org](https://www.typescriptlang.org) > Acesso em: 17 de Maio de 2023
+
+> [4] <b>React</b>. Disponível em: < [https://react.dev](https://react.dev) > Acesso em: 17 de Maio de 2023
+
+> [5] <b>What is Next.js?</b>. Disponível em: < [https://nextjs.org/learn/foundations/about-nextjs/what-is-nextjs](https://nextjs.org/learn/foundations/about-nextjs/what-is-nextjs) > Acesso em: 17 de Maio de 2023
+
+> [6] <b>Django</b>. Disponível em: < [https://www.djangoproject.com](https://www.djangoproject.com) > Acesso em: 17 de Maio de 2023
+
+> [7] <b>The Jupyter Notebook</b>. Disponível em: < [https://jupyter-notebook.readthedocs.io/en/latest/notebook.html](https://jupyter-notebook.readthedocs.io/en/latest/notebook.html) > Acesso em: 17 de Maio de 2023
+
+> [8] <b>PyPI - Python Package Index</b>. Disponível em: < [https://pypi.org](https://pypi.org) > Acesso em: 17 de Maio de 2023
+
+> [9] <b>PostgreSQL: The World's Most Advanced Open Source Relational Database</b>. Disponível em: < [https://www.postgresql.org](https://www.postgresql.org) > Acesso em: 17 de Maio de 2023
 
 > Arquitetura do Sistema (MeasureSoftGram-2022-2). Disponível em: < [https://fga-eps-mds.github.io/2022-2-MeasureSoftGram-Doc/plano-monitoramento/documento_de_arquitetura](https://fga-eps-mds.github.io/2022-2-MeasureSoftGram-Doc/plano-monitoramento/documento_de_arquitetura/) > Acesso em: 15 de Maio de 2023
