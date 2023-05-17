@@ -6,6 +6,7 @@
 |--|--|--|--|
 |1.0| 15/05/2023 | Criação do documento | Paulo Batista e Igor Lima |
 |1.1| 17/05/2023 | Atualização da definição de linguagens e tecnologias utilizadas | Paulo Batista e Igor Lima |
+|1.2| 17/05/2023 | Adição do Diagrama de Pacotes Web e Diagrama de Arquitetura | Paulo Batista e Igor Lima |
 
 
 ## Introdução
@@ -56,7 +57,25 @@
 
 ## Diagrama arquitetural
 
+![Diagrama Arquitetural](/assets/images/diagrama_arquitetura.png)
+
 ## Diagrama de Pacotes
+
+### Web
+
+![Diagrama de pacotes - Web](/assets/images/diagrama_web.png)
+
+### Service
+
+<!--![Diagrama de pacotes - Service](/assets/images/diagrama_service.png)-->
+
+### Core
+
+<!--![Diagrama de pacotes - Core](/assets/images/diagrama_core.png)-->
+
+### CLI
+
+<!--![Diagrama de pacotes - CLI](/assets/images/diagrama_cli.png)-->
 
 ## Metas e Restrições de Arquitetura
 
@@ -104,4 +123,6 @@
 
 > [9] <b>PostgreSQL: The World's Most Advanced Open Source Relational Database</b>. Disponível em: < [https://www.postgresql.org](https://www.postgresql.org) > Acesso em: 17 de Maio de 2023
 
-> Arquitetura do Sistema (MeasureSoftGram-2022-2). Disponível em: < [https://fga-eps-mds.github.io/2022-2-MeasureSoftGram-Doc/plano-monitoramento/documento_de_arquitetura](https://fga-eps-mds.github.io/2022-2-MeasureSoftGram-Doc/plano-monitoramento/documento_de_arquitetura/) > Acesso em: 15 de Maio de 2023
+> <b>Tudo sobre diagramas de pacotes UML</b>. Disponível em: < [https://www.lucidchart.com/pages/pt/diagrama-de-pacotes-uml](https://www.lucidchart.com/pages/pt/diagrama-de-pacotes-uml) > Acesso em: 17 de Maio de 2023
+
+> <b>Arquitetura do Sistema (MeasureSoftGram-2022-2)</b>. Disponível em: < [https://fga-eps-mds.github.io/2022-2-MeasureSoftGram-Doc/plano-monitoramento/documento_de_arquitetura](https://fga-eps-mds.github.io/2022-2-MeasureSoftGram-Doc/plano-monitoramento/documento_de_arquitetura/) > Acesso em: 15 de Maio de 2023
