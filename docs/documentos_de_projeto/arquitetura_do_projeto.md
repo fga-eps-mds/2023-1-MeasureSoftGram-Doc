@@ -7,7 +7,7 @@
 |1.0| 15/05/2023 | Criação do documento | Paulo Batista e Igor Lima |
 |1.1| 17/05/2023 | Atualização da definição de linguagens e tecnologias utilizadas | Paulo Batista e Igor Lima |
 |1.2| 17/05/2023 | Adição do Diagrama de Pacotes Web e Diagrama de Arquitetura | Paulo Batista e Igor Lima |
-
+|1.3| 20/05/2023 | Adição do Diagrama de Pacotes da CLI e do Core | Paulo Batista e Igor Lima |
 
 ## Introdução
 
@@ -71,12 +71,13 @@
 
 ### Core
 
-![Diagrama de pacotes - Web](/assets/images/diagrama_pacotes_core.png)
+![Diagrama de pacotes - Core](/assets/images/diagrama_pacotes_core.png)
 
 <!--![Diagrama de pacotes - Core](/assets/images/diagrama_core.png)-->
 
 ### CLI
 
+![Diagrama de pacotes - CLI](/assets/images/diagrama_pacotes_cli.png)
 <!--![Diagrama de pacotes - CLI](/assets/images/diagrama_cli.png)-->
 
 ## Metas e Restrições de Arquitetura
