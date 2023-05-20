@@ -2,9 +2,10 @@
 
 ## Histórico de versão
 
-|        Data        |      Autor       |                  Descrição da revisão                  | Versão |
-| :----------------: | :--------------: | :----------------------------------------------------: | :----: |
+|        Data         |      Autor       |                  Descrição da revisão                  | Versão |
+| :----------------:  | :--------------: | :----------------------------------------------------: | :----: |
 | 15 de Maio de 2023  | **Davi Matheus** |                Inclusão da documentação                | 1.0.0  |
+| 19 de Maio de 2023  | **Adrian Soares**|              Inclusão do gráfico de Gantt              | 1.0.1  |
 
 
 ## Objetivo do documento
@@ -58,3 +59,8 @@ Time box utilizado pela equipe :
 
 
 ##  Quadro de Gantt
+
+Roadmap estabelecido com base na EAP e as principais entregas para a disciplina. Também são mostradas as Sprints com duração de 7 dias. Os tempos em vermelho mais escuro representam as entregas de maior significância.
+
+![gantt_gr](../assets/agendas_e_ferramentas/roadmap.png)
+
