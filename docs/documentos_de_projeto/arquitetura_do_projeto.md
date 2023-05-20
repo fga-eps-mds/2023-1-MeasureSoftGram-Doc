@@ -63,13 +63,15 @@
 
 ### Web
 
-![Diagrama de pacotes - Web](/assets/images/diagrama_web.png)
+![Diagrama de pacotes - Web](/assets/images/diagrama_pacotes_front_web.png)
 
 ### Service
 
 <!--![Diagrama de pacotes - Service](/assets/images/diagrama_service.png)-->
 
 ### Core
+
+![Diagrama de pacotes - Web](/assets/images/diagrama_pacotes_core.png)
 
 <!--![Diagrama de pacotes - Core](/assets/images/diagrama_core.png)-->
 
