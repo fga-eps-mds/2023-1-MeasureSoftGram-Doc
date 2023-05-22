@@ -7,6 +7,7 @@
 | 15 de Maio de 2023  | **Davi Matheus** |                Inclusão da documentação                | 1.0.0  |
 | 19 de Maio de 2023  | **Adrian Soares**|              Inclusão do gráfico de Gantt              | 1.0.1  |
 | 22 de Maio de 2023  | **Paulo Batista**|              Correção dos erros ortográficos              | 1.0.2  |
+| 22 de Maio de 2023  | **Guilherme Braz e Paulo Batista**|              Revisão do documento              | 1.0.3  |
 
 ## Objetivo do documento
 
