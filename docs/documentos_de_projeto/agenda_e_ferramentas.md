@@ -6,7 +6,7 @@
 | :----------------:  | :--------------: | :----------------------------------------------------: | :----: |
 | 15 de Maio de 2023  | **Davi Matheus** |                Inclusão da documentação                | 1.0.0  |
 | 19 de Maio de 2023  | **Adrian Soares**|              Inclusão do gráfico de Gantt              | 1.0.1  |
-
+| 22 de Maio de 2023  | **Paulo Batista**|              Correção dos erros ortográficos              | 1.0.2  |
 
 ## Objetivo do documento
 
@@ -14,7 +14,7 @@ Esse documento tem como objetivo principal descrever, organizar e acompanhar as 
 
 É essencial documentar e manter a equipe atualizada acerca das mudanças nas agendas de trabalho ou nas ferramentas utilizadas. Isso possibilita a comunicação efetiva entre os membros da equipe, permitindo que todos estejam alinhados em relação às responsabilidades, prazos e atualizações do projeto.
 
-Neste documento estrão presentes os artefatos do timebox do projeto, um Quadro de disponibilidade e de conhecimentos da equipe, suas ferramentas utilizadas e um por fim Quadro de Gantt.
+Neste documento estão presentes os artefatos do timebox do projeto, um Quadro de disponibilidade e de conhecimentos da equipe, suas ferramentas utilizadas e o Quadro de Gantt.
 
 Em suma, ao detalhar de forma precisa as tarefas, compromissos e ferramentas utilizadas, e ao manter a equipe informada sobre as alterações pertinentes, o documento de agenda de trabalho e de ferramentas contribui para a organização, comunicação e sucesso do projeto.
 
