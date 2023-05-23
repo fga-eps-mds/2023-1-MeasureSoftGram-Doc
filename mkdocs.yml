@@ -17,14 +17,13 @@ markdown_extensions:
 nav:
     - Home: index.md
     - Guia de contribuicao:
-      - Como contribuir: guia_contribuicao/como_contribuir.md
-      - Política de Branches: guia_contribuicao/branches.md
-      - Política de Commits: guia_contribuicao/commits.md
-      - Código de conduta: guia_contribuicao/CODE_OF_CONDUCT.md
-      - Plano e monitoramento:
-        - Plano de custos: documentos_de_projeto/plano_de_custos.md
-      - Heatmap e Tabela de Conhecimento:
-        - Heatmap: heatmap_knowledge-table/heatmap.md
-        - Tabela de Conhecimento: heatmap_knowledge-table/knowledge_table.md
+          - Como contribuir: guia_contribuicao/como_contribuir.md
+          - Política de Branches: guia_contribuicao/branches.md
+          - Política de Commits: guia_contribuicao/commits.md
+          - Código de conduta: guia_contribuicao/CODE_OF_CONDUCT.md
+    - Planos e monitoramento:
+          - Plano de custos: documentos_de_projeto/plano_de_custos.md
+          - Heatmap: heatmap_knowledge-table/heatmap.md
+          - Tabela de Conhecimento: heatmap_knowledge-table/knowledge_table.md
     - Documentação:
-        - Arquitetura do projeto: documentos_de_projeto/arquitetura_do_projeto.md
+          - Arquitetura do projeto: documentos_de_projeto/arquitetura_do_projeto.md
