@@ -16,6 +16,8 @@ markdown_extensions:
 
 nav:
     - Home: index.md
+    - Manuais de Uso:
+      - CLI: manual-de-uso/cli.md
     - Guia de contribuicao:
       - Como contribuir: guia_contribuicao/como_contribuir.md
       - Política de Branches: guia_contribuicao/branches.md
