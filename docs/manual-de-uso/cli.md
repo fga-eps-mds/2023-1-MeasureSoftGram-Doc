@@ -107,7 +107,16 @@ Exemplo de configuração de qualidade gerado pelo <b>init</b>:
                 }
             ]
         }
-    ]
+    ],
+    "thresholds":{
+     "max_complex_files_density":10,
+     "min_comment_density":50,
+     "max_comment_density":30,
+     "max_duplicated_lines":5,
+     "max_fast_test_time":300000,
+     "min_coverage":60,
+     "max_coverage":90
+  }
 }
 ```
 ##### 2.3.1.1 thresholds
@@ -134,13 +143,15 @@ Exemplo de configuração de qualidade gerado pelo <b>init</b>:
 
 1. Caso o valor não for passado o msgram irá utilizar os valores padrões.
 
-2. Os threshold mínimo não pode ser maior, ou igual, o threshold máximo
+2. Os threshold mínimo não pode ser maior, ou igual, o threshold máximo.
+
+3. Os valores mínimos e máximos também são utilizado para interpolação, portanto alguns são limitados entre 0 e 100 e outros são fixos. 
 
 3. Segue os valores padrões de cada threshold:
 
 ```json
    {
-        "min_complex_files_density": 0, #is complex if file cyclomatic complexity divide by number of functions 
+        "min_complex_files_density": 0, #is complex if file cyclomatic complexity divided by number of functions is greater than max
         "max_complex_files_density": 10, 
         "min_comment_density": 10, #considers the files with comment density between min and max for the measure 
         "max_comment_density": 30,
