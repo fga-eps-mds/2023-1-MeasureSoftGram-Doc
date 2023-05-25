@@ -2,12 +2,13 @@
 
 ## Histórico de versão
 
-|        Data        |      Autor       |                  Descrição da revisão                  | Versão |
-| :----------------: | :--------------: | :----------------------------------------------------: | :----: |
-| 2 de Maio de 2023  | **Luis Marques** |                Inclusão da documentação                | 1.0.0  |
-| 11 de Maio de 2023 | **Luis Marques** |                    Inclusão de EVM                     | 1.1.0  |
-| 12 de Maio de 2023 | **Luis Marques** | Inclusão de descrição de EVM e link de tabela completa | 1.1.1  |
-| 13 de Maio de 2023 | **Paulo Batista** | Revisão do documento | 1.1.1  |
+|        Data        |       Autor       |                  Descrição da revisão                  | Versão |
+| :----------------: | :---------------: | :----------------------------------------------------: | :----: |
+| 2 de Maio de 2023  | **Luis Marques**  |                Inclusão da documentação                | 1.0.0  |
+| 11 de Maio de 2023 | **Luis Marques**  |                    Inclusão de EVM                     | 1.1.0  |
+| 12 de Maio de 2023 | **Luis Marques**  | Inclusão de descrição de EVM e link de tabela completa | 1.1.1  |
+| 13 de Maio de 2023 | **Paulo Batista** |                  Revisão do documento                  | 1.1.1  |
+| 22 de Maio de 2023 | ** Luis Marques** |           Alteração do link da tabela de EVM           | 1.1.2  |
 
 ## Objetivo do documento
 
@@ -83,9 +84,9 @@ Para o cálculo do EVM, foram utilizadas as seguintes fórmulas:
 
 O sumário do valor planejado pode ser visto na tabela a seguir:
 
-<iframe width="682" height="350" frameborder="0" scrolling="no" src="https://unbbr-my.sharepoint.com/:x:/g/personal/180105604_aluno_unb_br/EZAonumg2YpJm5j6XEbizsAB_ilnv9SJqEHfi5LifE4QAQ?e=7S7FLw&nav=MTJfQTE6RTE2X3swMDAwMDAwMC0wMDAxLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDB9&action=embedview&wdAllowInteractivity=False&Item='Sheet1'!A1%3AE16&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True&edesNext=false&resen=true&ed1JS=false"></iframe>
+<iframe width="682" height="350" frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ9aH_sbUtjvi6iSp35Ep8GMWbRttoiq_Cjk99cBJXHsqxGoxNkF2O8U8OQF_DMo26PtAedLWFKLXWe/pubhtml?gid=1015652774&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
-Para analisar os dados completos do projeto pode-se analisar nesse [link](https://unbbr-my.sharepoint.com/:x:/g/personal/180105604_aluno_unb_br/EZAonumg2YpJm5j6XEbizsAB_ilnv9SJqEHfi5LifE4QAQ?e=0bfKN6)
+Para analisar os dados completos do projeto pode-se analisar nesse [link](https://docs.google.com/spreadsheets/d/1yooiI0do8aH4Cppv79ZBRAlqe535To_shebGenEKe90/edit?usp=sharing)
 
 ## Referência
 
