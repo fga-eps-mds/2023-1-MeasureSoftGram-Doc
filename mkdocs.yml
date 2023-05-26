@@ -31,3 +31,5 @@ nav:
     - Lean inception: 
        - Mural: lean_inception/home.md
        - Visão do produto: lean_inception/visão_do_produto.md
+       - É, Não É, Faz, Não Faz: lean_inception/É_Não_É_Faz_Não_Faz.md
+       - Personas: lean_inception/Personas.md

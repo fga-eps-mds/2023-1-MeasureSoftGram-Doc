@@ -1,8 +1,6 @@
 # Visão do Produto
 
 
-
-
 ## Histórico de versão
 
 |        Data        |       Autor       |                  Descrição da revisão                  | Versão |
@@ -44,18 +42,18 @@ Ao seguir os passos estabelecidos, cada grupo conseguiu desenvolver três visõe
 
 ## Resultados
 
-### 2.1 Visão 1
+### Visão Produto 1
 
 ![visão produto 1](../assets/lean_inception/visao-produto-1.png)
 
-### 2.2 Visão 2
+### Visão Produto 2
 
 ![visão produto 2](../assets/lean_inception/visao-produto-2.png)
 
-### 2.3 Visão 3
+### Visão Produto 3
 
 ![visão produto 3](../assets/lean_inception/visao-produto-3.png)
 
 ## Referências
 
-> [1] <b>Write the Product Vision</b>. Disponível em: < [https://martinfowler.com/articles/lean-inception/write-product-vision.html](https://martinfowler.com/articles/lean-inception/write-product-vision.html) > Acesso em: 2 de Maio de 2023
+> [1] <b>Write the Product Vision</b>. Disponível em: < [https://martinfowler.com/articles/lean-inception/write-product-vision.html](https://martinfowler.com/articles/lean-inception/write-product-vision.html) > Acesso em: 24 de Maio de 2023
