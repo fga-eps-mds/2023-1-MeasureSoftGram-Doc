@@ -35,4 +35,6 @@ nav:
        - Personas: lean_inception/Personas.md
        - Jornada de Usuario: lean_inception/Jornada_de_usuario.md
        - Brainstorming de Funcionalidades: lean_inception/Brainstorming_Funcionalidades.md
-       - Teste: lean_inception/Revisão_Técnica.md
+       - Revisão Técnica, de Negócio e de UX: lean_inception/Revisão_Técnica.md
+       - Sequenciador: lean_inception/Sequenciador.md
+       - Canvas MVP: lean_inception/Canvas_MVP.md
