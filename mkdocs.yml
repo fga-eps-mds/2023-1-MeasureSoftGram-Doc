@@ -28,4 +28,6 @@ nav:
       - Tabela de Conhecimento: heatmap_knowledge_table/knowledge_table.md
     - Documentação:
        - Arquitetura do projeto: documentos_de_projeto/arquitetura_do_projeto.md
-
+    - Lean inception: 
+       - Mural: lean_inception/home.md
+       - Visão do produto: lean_inception/visão_do_produto.md
