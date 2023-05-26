@@ -3,6 +3,7 @@
 |Versão|Data|Descrição|Autor(es)|
 |------|----|---------|-------- |
 |0.1   | 23/05/2023 | Criação do documento | Jonathan e Marcos |
+|0.2   | 26/05/2023 | Revisão do documento | Paulo Batista |
 
 ## 2. Manual de Uso da `CLI`
 
@@ -122,7 +123,7 @@ Exemplo de configuração de qualidade gerado pelo <b>init</b>:
 ##### 2.3.1.1 thresholds
 
 <p align="justify" style="text-indent: 20px">
-    Através do arquivo de configuração é possível modificar os valores de referência mínimo e máximo das medidas do modelo, permitindo a personalização das variáveis de acordo com a preferência do usuários.
+    Através do arquivo de configuração é possível modificar os valores de referência mínimo e máximo das medidas do modelo, permitindo a personalização das variáveis de acordo com a preferência dos usuários.
 </p>
 <p align="justify" style="text-indent: 20px">
     Para modificar os thresholds basta adicionar a chave thresholds no json de configuração demonstrado acima e passando como valor o nome dos thresholds que deseja modificar e seus respectivos valores como mostrado abaixo.
@@ -143,9 +144,9 @@ Exemplo de configuração de qualidade gerado pelo <b>init</b>:
 
 1. Caso o valor não for passado o msgram irá utilizar os valores padrões.
 
-2. Os threshold mínimo não pode ser maior, ou igual, o threshold máximo.
+2. O threshold mínimo não pode ser maior, ou igual, o threshold máximo.
 
-3. Os valores mínimos e máximos também são utilizado para interpolação, portanto alguns são limitados entre 0 e 100 e outros são fixos. 
+3. Os valores mínimos e máximos também são utilizados para interpolação, portanto alguns são limitados entre 0 e 100 e outros são fixos. 
 
 3. Segue os valores padrões de cada threshold:
 
@@ -170,7 +171,7 @@ Exemplo de configuração de qualidade gerado pelo <b>init</b>:
 #### 2.3.2 msgram extract
 
 <p align="justify" style="text-indent: 20px">
-    Responsável por extrair os dados advindos dos análisadores de código (parsers). Até a versão 1.0.0, o MeasureSoftGram suporta as seguintes entidades:
+    Responsável por extrair os dados advindos dos analisadores de código (parsers). Até a versão 1.0.0, o MeasureSoftGram suporta as seguintes entidades:
 </p>
 
 ??? info "Características disponíveis"
@@ -215,7 +216,7 @@ msgram extract -h
 #### 2.3.3 msgram calculate
 
 <p align="justify" style="text-indent: 20px">
-    Responsável por calcular, através do <a href="https://pypi.org/project/msgram-core/">msgram-core</a> (versão empacotada dos cálculos), a qualidade dos arquivos extraidos. Também, por esse comando o MeasureSoftGram extrai os dados (CSV ou JSON) calculados.
+    Responsável por calcular, através do <a href="https://pypi.org/project/msgram-core/">msgram-core</a> (versão empacotada dos cálculos), a qualidade dos arquivos extraídos. Também, por esse comando o MeasureSoftGram extrai os dados (CSV ou JSON) calculados.
 </p>
 
 ```sh
