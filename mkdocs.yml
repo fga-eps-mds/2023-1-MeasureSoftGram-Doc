@@ -25,6 +25,7 @@ nav:
       - Código de conduta: guia_contribuicao/CODE_OF_CONDUCT.md
     - Plano e monitoramento:
       - Plano de custos: documentos_de_projeto/plano_de_custos.md
+      - Estrutura analítica do projeto: documentos_de_projeto/eap.md
     - Heatmap e Tabela de Conhecimento:
       - Heatmap: heatmap_knowledge_table/heatmap.md
       - Tabela de Conhecimento: heatmap_knowledge_table/knowledge_table.md
