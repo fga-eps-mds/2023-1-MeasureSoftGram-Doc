@@ -25,6 +25,7 @@ nav:
       - Código de conduta: guia_contribuicao/CODE_OF_CONDUCT.md
     - Plano e monitoramento:
       - Plano de custos: documentos_de_projeto/plano_de_custos.md
+      - Agenda e ferramentas: documentos_de_projeto/agenda_e_ferramentas.md
       - Estrutura analítica do projeto: documentos_de_projeto/eap.md
     - Heatmap e Tabela de Conhecimento:
       - Heatmap: heatmap_knowledge_table/heatmap.md
@@ -43,3 +44,4 @@ nav:
        - Sequenciador: lean_inception/Sequenciador.md
        - Canvas MVP: lean_inception/Canvas_MVP.md
        - Mural: lean_inception/Mural.md
+
