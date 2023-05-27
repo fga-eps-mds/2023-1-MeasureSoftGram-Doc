@@ -79,7 +79,7 @@ A forma utilizada para a identifação de riscos do projeto foi a análise de pr
 ###  Riscos técnicos
 |Risco| Descrição|	Ação Preventiva|	Ação Reativa	|Probabilidade	|Impacto|	Prioridade|
 |:----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
-| R01 | Falta de conhecimento com as tecnologias de desenvolvimento. |  Treinamentos e pareamentos efetivos	. | 4 | 5  | 20 | 
+| R01 | Falta de conhecimento com as tecnologias de desenvolvimento. |  Escolher os alunos que estão dispostos a aprender as ferramentas necessárias. | Procurar cursos e aplicar treinamento sobre as tecnologias. | 4 | 5  | 20 | 
 | R02 | Não cumprimento dos padrões de qualidade | Monitoramento dos indíces de qualidade	 |Implementar melhorias que atendam os padrões de qualidade | 8 | 5 | 25 | 
 | R03 | Alteração de Tecnologias do projeto |  Clareza no escopo do projeto | Planejamento de sprints de modo que possíveis alterações não afetem o desenvolvimento do projeto. | 2 | 2 | 10 |
 | R04 | Defeito no equipamento de algum integrante do grupo | Comunicação clara e transparente entre todos os membros do grupo. | Realocação de integrantes em diferentes funções |  1 | 4 | 10 | 
@@ -99,7 +99,7 @@ A forma utilizada para a identifação de riscos do projeto foi a análise de pr
 ###  Riscos de gerência
 |Risco| Descrição|	Ação Preventiva|	Ação Reativa	|Probabilidade	|Impacto|	Prioridade|
 |:----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
-| R09 | Alterar escopo | Reuniões para descrever de forma clara os requisitos do projeto. | Dailys para atualizações de todos os integrantes sobre possíveis mudanças e melhor planejamento. | 3 | 3 | 20 |  
+| R09 | Alterar escopo | Reuniões para descrever de forma clara os requisitos do projeto. | Realizar a revisão e atualização do planejamento.| 3 | 3 | 20 |  
 | R10 | Falta de comunicação entre os integrantes do grupo |  Estabelecer ferramentas de comunição entre os membros, realizações de dailys e assuntos pontuais por whatsapp/telegram | Sempre deixar principais pontos das sprints em ambientes que os integrantes acessam constantemente. | 3 | 4 | 12 | 
 | R11 | Desistência de algum membro da equipe. | Dividir de forma igualitária as issues do projeto.  | Adequar os horários e realocar as tarefas entre os membros sem sobrecarregar nenhum membro. | 3 | 4 | 15 | 
 | R12 | Baixa produtividade dos integrantes do grupo |  Motivação da equipe através de dailys | Realizar checkpoints de saúde mental com os integrantes do grupo, ou elaboração de gamificação | 3 | 4 | 10 |
