@@ -2,9 +2,9 @@
 
 ## Histórico de versão
 
-|        Data        |       Autor       |                  Descrição da revisão                  | Versão |
-| :----------------: | :---------------: | :----------------------------------------------------: | :----: |
-| 24 de Maio de 2023  | **Davi Matheus**  |                Inclusão da documentação                | 1.0.0  |
+|        Data        |      Autor       |   Descrição da revisão   | Versão |
+| :----------------: | :--------------: | :----------------------: | :----: |
+| 24 de Maio de 2023 | **Davi Matheus** | Inclusão da documentação | 1.0.0  |
 
 
 ## Introdução

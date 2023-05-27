@@ -33,15 +33,13 @@ nav:
        - Arquitetura do projeto: documentos_de_projeto/arquitetura_do_projeto.md
        - Planejamento de Gerenciamento de Riscos: documentos_de_projeto/plano_de_riscos.md
     - Lean inception: 
-       - Mural: lean_inception/home.md
-       - Visão do produto: lean_inception/visão_do_produto.md
-       - É, Não É, Faz, Não Faz: lean_inception/É_Não_É_Faz_Não_Faz.md
+       - Introdução: lean_inception/Introducao.md
+       - Visão do produto: lean_inception/visao_do_produto.md
+       - É, Não É, Faz, Não Faz: lean_inception/E_Nao_E_Faz_Nao_Faz.md
        - Personas: lean_inception/Personas.md
        - Jornada de Usuario: lean_inception/Jornada_de_usuario.md
        - Brainstorming de Funcionalidades: lean_inception/Brainstorming_Funcionalidades.md
-       - Revisão Técnica, de Negócio e de UX: lean_inception/Revisão_Técnica.md
+       - Revisão Técnica, de Negócio e de UX: lean_inception/Revisao_Tecnica.md
        - Sequenciador: lean_inception/Sequenciador.md
        - Canvas MVP: lean_inception/Canvas_MVP.md
-
-
-
+       - Mural: lean_inception/Mural.md
