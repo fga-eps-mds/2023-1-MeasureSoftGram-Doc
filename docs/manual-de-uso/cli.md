@@ -109,15 +109,15 @@ Exemplo de configuração de qualidade gerado pelo <b>init</b>:
             ]
         }
     ],
-    "thresholds":{
-     "max_complex_files_density":10,
-     "min_comment_density":50,
-     "max_comment_density":30,
-     "max_duplicated_lines":5,
-     "max_fast_test_time":300000,
-     "min_coverage":60,
-     "max_coverage":90
-  }
+    "thresholds": {
+        "max_complex_files_density": 10,
+        "min_comment_density": 10,
+        "max_comment_density": 30,
+        "max_duplicated_lines": 5,
+        "max_fast_test_time": 300000,
+        "min_coverage": 60,
+        "max_coverage": 90,
+    }
 }
 ```
 ##### 2.3.1.1 thresholds
