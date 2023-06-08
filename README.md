@@ -101,12 +101,6 @@
                 <h5 class="text-center">Philipe Rosa Serafim</h5>
             </a>
         </td>
-        <td align="center">
-            <a href="https://github.com/WashingtonBispo">
-                <img style="border-radius: 50%;" src="https://github.com/WashingtonBispo.png" width="150px;"/>
-                <h5 class="text-center">Washington Bispo Arishita Júnior </h5>
-            </a>
-        </td>
     </tr>
 
 </table>
