@@ -76,6 +76,11 @@
 ![Diagrama de pacotes - CLI](../assets/images/diagrama_pacotes_cli.png)
 <!--![Diagrama de pacotes - CLI](../assets/images/diagrama_cli.png)-->
 
+
+### Parser
+![Diagrama de pacotes - Parser](../assets/images/diagrama_pacotes_parser.png)
+<!--![Diagrama de pacotes - Parser](../assets/images/diagrama_parser.png)-->
+
 ## Metas e Restrições de Arquitetura
 
 ### Metas
