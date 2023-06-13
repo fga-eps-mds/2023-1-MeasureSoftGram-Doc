@@ -45,3 +45,5 @@ nav:
           - Sequenciador: lean_inception/Sequenciador.md
           - Canvas MVP: lean_inception/Canvas_MVP.md
           - Mural: lean_inception/Mural.md
+    - Sprints:
+          - Sprint_29.05:  semanas-sprints/sprints/sprint_29.05.md   

@@ -15,7 +15,30 @@
 |**Duração da sprint**|7 dias|
 |**Objetivos planejados**|5|  
 
-##  Objetivos
+
+## Resumo dos Assuntos Falados
+
+### Validação da US11
+                Transformar em requisito não funcional
+                Validado, pode seguir desenvolvimento
+
+### Matriz de balanceamento no msgram.json
+                Não vai mexer no core (nem no msgram.json)
+                Enviar para o service
+
+### Releases
+                - Planejar release POR PRODUTO
+                - Planejar release major 
+                Configurações a serem consideradas:
+                * thresholds
+                * pesos
+                * quais características
+                * Metas de qualidade (matriz de balanceamento)
+                Permitir ao usuário usar uma configuração anterior ou a pré-configuração(caso seja a primeira release) na hora de planejar a release
+                Fazer com que a Action persista os cálculos baseado nas configurações da release atual de um produto (permitir configurar por tag, por PR, merge e afins)
+                Caso não tenha release associada a data da action, travar persistência dos dados
+
+##  Objetivos da Sprint
 
 * Inicializar a US6: Criar parser genérico [#27](https://github.com/fga-eps-mds/2023-1-MeasureSoftGram-Doc/issues/27);
 *  Trabalhar na User Story de matriz de relacionamentos das métricas[US22](https://github.com/fga-eps-mds/2023-1-MeasureSoftGram-Doc/issues/89;)
@@ -31,20 +54,20 @@
 * Ajustar carregamento vazio
 *  Ajustes pequenos
 
-##  Sprint BackLog
-|ID | Descrição | Responsável| Pontuação |
-|---|--------------------|--------------|------------- |
-|[#51](https://github.com/fga-eps-mds/2020.2-CheeryUP/issues/51) |US01 - Cadastro de psicólogos  | [DaviMatheus](https://github.com/DaviMatheus),[juninhigh](https://github.com/juninhigh),[antoniotoineto](https://github.com/antoniotoineto),[fernandes-natanael](https://github.com/fernandes-natanael), [Lucas](https://github.com/mibasFerraz) & [Abraao1231](https://github.com/Abraao1231) | 15 |
-|[#56](https://github.com/fga-eps-mds/2020.2-CheeryUP/issues/56) | Integração contínua | [DaviMatheus](https://github.com/DaviMatheus)  & [juninhigh](https://github.com/juninhigh) | 10 | 
-|[#63](https://github.com/fga-eps-mds/2020.2-CheeryUP/issues/63) | Finalização HomePage e pag de cadastro | [juninhigh](https://github.com/juninhigh), [antoniotoineto](https://github.com/antoniotoineto) & [art1505](https://github.com/art1505) | 15 | 
-|[#68](https://github.com/fga-eps-mds/2020.2-CheeryUP/issues/64) | Docs Sprint 06 e ATA  | [DaviMatheus](https://github.com/DaviMatheus), [juninhigh](https://github.com/juninhigh) & [art1505](https://github.com/art1505) | 3 | 
-|[#69](https://github.com/fga-eps-mds/2020.2-CheeryUP/issues/69) | Atualização do README |  [juninhigh](https://github.com/juninhigh) & [Lucas](https://github.com/mibasFerraz)| 15 | 
-|[#70](https://github.com/fga-eps-mds/2020.2-CheeryUP/issues/70) | Estudo de Autenticação e Tokens no Django | [mibasFerraz](https://github.com/mibasFerraz)| 5 |
-|[#48](https://github.com/fga-eps-mds/2023-1-MeasureSoftGram-Doc/issues/48);|BUG: Botão de Download não realiza ação| [DaviMatheus](https://github.com/DaviMatheus),[juninhigh](https://github.com/juninhigh),[antoniotoineto](https://github.com/antoniotoineto),[fernandes-natanael](https://github.com/fernandes-natanael) & [Abraao1231](https://github.com/Abraao1231) | 15 |
 
-    
 ##  Histórias da Sprint
 
  |ID|História|Pontos|Responsáveis|
 |:-:|:-----:|:----:|:----------:|
 |[#27](https://github.com/fga-eps-mds/2023-1-MeasureSoftGram-Doc/issues/27)| Eu como Paulo, Valeria, Miguel ou Amanda, gostaria de extrair métricas de software em diferentes fontes de informação, para conseguir quantificar medidas associadas à diferentes características e subcaracterísticas da qualidade..|21|[liversonp](https://github.com/liversonp), [luisgfmarques](https://github.com/luisgfmarques) & [DaviMatheus](https://github.com/DaviMatheus)|
+|[#51](https://github.com/fga-eps-mds/2023-1-MeasureSoftGram-Doc/issues/51) | 8 | US21: Armazenar as informações da action do Github #51  | [Paulo Batista](https://github.com/higton),[Guilherme Braz](https://github.com/GuilhermeBraz) |
+
+## Retrospectiva da Sprint 29 Maio - 5 Junho, 2023
+
+- Para nossa retrospectiva relizamos as 3 perguntas para melhor entendar a semanas de todos os integrantes:
+
+            - No que você trabalhou na última sprint?
+            - No que você pretende trabalhar para a próxima?
+            - Você tem algum impedimento
+
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVM_BQLvs=/?moveToViewport=-2957,-1549,4986,2343&embedId=710374206052" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe> 
