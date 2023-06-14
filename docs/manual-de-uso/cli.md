@@ -70,19 +70,25 @@ Exemplo de configuração de qualidade gerado pelo <b>init</b>:
                     "measures": [
                         {
                             "key": "passed_tests",
-                            "weight": 33
+                            "weight": 33,
+                            "min_passed_tests": 0,
+                            "max_passed_tests": 1,
                         },
                         {
                             "key": "test_builds",
-                            "weight": 33
+                            "weight": 33,
+                            "min_fast_test_time": 0,
+                            "max_fast_test_time": 300000,
                         },
                         {
                             "key": "test_coverage",
-                            "weight": 34
-                        }
-                    ]
+                            "weight": 34,
+                            "min_coverage": 60,
+                            "max_coverage": 90,
+                        },
+                    ],
                 }
-            ]
+            ],
         },
         {
             "key": "maintainability",
@@ -94,30 +100,27 @@ Exemplo de configuração de qualidade gerado pelo <b>init</b>:
                     "measures": [
                         {
                             "key": "non_complex_file_density",
-                            "weight": 33
+                            "weight": 33,
+                            "min_complex_files_density": 0,
+                            "max_complex_files_density": 10,
                         },
                         {
                             "key": "commented_file_density",
-                            "weight": 33
+                            "weight": 33,
+                            "min_comment_density": 10,
+                            "max_comment_density": 30,
                         },
                         {
                             "key": "duplication_absense",
-                            "weight": 34
-                        }
-                    ]
+                            "weight": 34,
+                            "min_duplicated_lines": 0,
+                            "max_duplicated_lines": 5,
+                        },
+                    ],
                 }
-            ]
+            ],
         }
-    ],
-    "thresholds": {
-        "max_complex_files_density": 10,
-        "min_comment_density": 10,
-        "max_comment_density": 30,
-        "max_duplicated_lines": 5,
-        "max_fast_test_time": 300000,
-        "min_coverage": 60,
-        "max_coverage": 90,
-    }
+    ]
 }
 ```
 ##### 2.3.1.1 thresholds
@@ -129,14 +132,11 @@ Exemplo de configuração de qualidade gerado pelo <b>init</b>:
     Para modificar os thresholds basta adicionar a chave thresholds no json de configuração demonstrado acima e passando como valor o nome dos thresholds que deseja modificar e seus respectivos valores como mostrado abaixo.
 </p>
 ```json
-  "thresholds":{
-     "max_complex_files_density":10,
-     "min_comment_density":50,
-     "max_comment_density":30,
-     "max_duplicated_lines":5,
-     "max_fast_test_time":300000,
-     "min_coverage":60,
-     "max_coverage":90
+  {
+    "key": "duplication_absense",
+    "weight": 34,
+    "min_duplicated_lines": 0,
+    "max_duplicated_lines": 5,
   }
 ```
 
@@ -162,7 +162,7 @@ Exemplo de configuração de qualidade gerado pelo <b>init</b>:
         "max_passed_tests": 1, 
         "min_fast_test_time": 0, #the test is fast if time is bellow max
         "max_fast_test_time": 300000, 
-        "min_coverage": 60, #consider files with coverage bellow min for the measure
+        "min_coverage": 60, #consider files with coverage above min for the measure
         "max_coverage": 90 
     }
 ```
