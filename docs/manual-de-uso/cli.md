@@ -84,7 +84,7 @@ Exemplo de configuração de qualidade gerado pelo <b>init</b>:
                             "key": "test_coverage",
                             "weight": 34,
                             "min_coverage": 60,
-                            "max_coverage": 90,
+                            "max_coverage": 100,
                         },
                     ],
                 }
