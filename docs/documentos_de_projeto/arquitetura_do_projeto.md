@@ -9,6 +9,7 @@
 |1.2| 17/05/2023 | Adição do Diagrama de Pacotes Web e Diagrama de Arquitetura | Paulo Batista e Igor Lima |
 |1.3| 20/05/2023 | Adição do Diagrama de Pacotes da CLI e do Core | Paulo Batista e Igor Lima |
 |2.0| 30/06/2023 | Mudança do documetno de arquitetura adicionando o Parser | Davi Matheus, Liverson e Luis |
+
 ## Introdução
 
 <p align = "justify"> &emsp;&emsp; A finalidade este documento é apresentar de forma geral os aspectos mais significativos da arquitetura do projeto Measure SoftwareGram. Neste documento são apresentados os seguintes pontos, os serviços e as tecnologias utilizadas em cada parte do projeto, modelo de arquitetura seguido atualmente e as motivações que guiam essas escolhas. </p>
