@@ -8,6 +8,7 @@
 |1.1| 17/05/2023 | Atualização da definição de linguagens e tecnologias utilizadas | Paulo Batista e Igor Lima |
 |1.2| 17/05/2023 | Adição do Diagrama de Pacotes Web e Diagrama de Arquitetura | Paulo Batista e Igor Lima |
 |1.3| 20/05/2023 | Adição do Diagrama de Pacotes da CLI e do Core | Paulo Batista e Igor Lima |
+|2.0| 30/06/2023 | Mudança do documetno de arquitetura adicionando o Parser | Davi Matheus, Liverson e Luis |
 
 ## Introdução
 
@@ -54,6 +55,7 @@
 
 **Service** Este é o programa responsável por se comunicar com a aplicação `Frontend Web` e fornecer todos os dados necessários para a aplicação web.
 
+**Parser** Este repositório possui a capacidade de interpretar a estrutura gramatical ou sintática dos dados de entrada, a fim de transformá-los em uma representação interna mais adequada para processamento pelos demais serviços.
 
 ## Diagrama arquitetural
 
@@ -75,6 +77,11 @@
 
 ![Diagrama de pacotes - CLI](../assets/images/diagrama_pacotes_cli.png)
 <!--![Diagrama de pacotes - CLI](../assets/images/diagrama_cli.png)-->
+
+
+### Parser
+![Diagrama de pacotes - Parser](../assets/images/diagrama_pacotes_parser.png)
+<!--![Diagrama de pacotes - Parser](../assets/images/diagrama_parser.png)-->
 
 ## Metas e Restrições de Arquitetura
 
