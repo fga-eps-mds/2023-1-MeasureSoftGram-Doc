@@ -71,20 +71,20 @@ Exemplo de configuração de qualidade gerado pelo <b>init</b>:
                         {
                             "key": "passed_tests",
                             "weight": 33,
-                            "min_passed_tests": 0,
-                            "max_passed_tests": 1,
+                            "min_threshold": 0,
+                            "max_threshold": 1,
                         },
                         {
                             "key": "test_builds",
                             "weight": 33,
-                            "min_fast_test_time": 0,
-                            "max_fast_test_time": 300000,
+                            "min_threshold": 0,
+                            "max_threshold": 300000,
                         },
                         {
                             "key": "test_coverage",
                             "weight": 34,
-                            "min_coverage": 60,
-                            "max_coverage": 100,
+                            "min_threshold": 60,
+                            "max_threshold": 100,
                         },
                     ],
                 }
@@ -101,27 +101,25 @@ Exemplo de configuração de qualidade gerado pelo <b>init</b>:
                         {
                             "key": "non_complex_file_density",
                             "weight": 33,
-                            "min_complex_files_density": 0,
-                            "max_complex_files_density": 10,
+                            "min_threshold": 0,
+                            "max_threshold": 10,
                         },
                         {
                             "key": "commented_file_density",
                             "weight": 33,
-                            "min_comment_density": 10,
-                            "max_comment_density": 30,
+                            "min_threshold": 10,
+                            "max_threshold": 30,
                         },
                         {
                             "key": "duplication_absense",
                             "weight": 34,
-                            "min_duplicated_lines": 0,
-                            "max_duplicated_lines": 5,
+                            "min_threshold": 0,
+                            "max_threshold": 5,
                         },
                     ],
                 }
             ],
         }
-    ]
-}
 ```
 ##### 2.3.1.1 thresholds
 
@@ -131,13 +129,15 @@ Exemplo de configuração de qualidade gerado pelo <b>init</b>:
 <p align="justify" style="text-indent: 20px">
     Para modificar os thresholds basta adicionar a chave thresholds no json de configuração demonstrado acima e passando como valor o nome dos thresholds que deseja modificar e seus respectivos valores como mostrado abaixo.
 </p>
-```json
+``` json
+
   {
     "key": "duplication_absense",
     "weight": 34,
-    "min_duplicated_lines": 0,
-    "max_duplicated_lines": 5,
+    "min_threshold": 0,
+    "max_threshold": 5,
   }
+  
 ```
 
 **OBS:**
@@ -163,7 +163,7 @@ Exemplo de configuração de qualidade gerado pelo <b>init</b>:
         "min_fast_test_time": 0, #the test is fast if time is bellow max
         "max_fast_test_time": 300000, 
         "min_coverage": 60, #consider files with coverage above min for the measure
-        "max_coverage": 90 
+        "max_coverage": 100 
     }
 ```
 
