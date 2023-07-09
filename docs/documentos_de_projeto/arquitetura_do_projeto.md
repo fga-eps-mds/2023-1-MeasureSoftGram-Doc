@@ -9,6 +9,7 @@
 |1.2| 17/05/2023 | Adição do Diagrama de Pacotes Web e Diagrama de Arquitetura | Paulo Batista e Igor Lima |
 |1.3| 20/05/2023 | Adição do Diagrama de Pacotes da CLI e do Core | Paulo Batista e Igor Lima |
 |2.0| 30/06/2023 | Mudança do documetno de arquitetura adicionando o Parser | Davi Matheus, Liverson e Luis |
+|2.1| 09/07/2023 | Adição da github action | Paulo Batista |
 
 ## Introdução
 
@@ -57,6 +58,8 @@
 
 **Parser** Este repositório possui a capacidade de interpretar a estrutura gramatical ou sintática dos dados de entrada, a fim de transformá-los em uma representação interna mais adequada para processamento pelos demais serviços.
 
+**Github Action** Action customizada do Github que permite realizar a análise de um certo repositorio. Esta aplicação é responsável por se comunicar com o serviço `Service` e fornecer todos os dados necessários para a aplicação web.
+
 ## Diagrama arquitetural
 
 ![Diagrama Arquitetural](../assets/images/diagrama_arquitetura.png)
@@ -82,6 +85,10 @@
 ### Parser
 ![Diagrama de pacotes - Parser](../assets/images/diagrama_pacotes_parser.png)
 <!--![Diagrama de pacotes - Parser](../assets/images/diagrama_parser.png)-->
+
+### Github Action
+![Diagrama de pacotes - Parser](../assets/images/diagrama_pacotes_action.png)
+<!--![Diagrama de pacotes - Parser](../assets/images/diagrama_action.png)-->
 
 ## Metas e Restrições de Arquitetura
 
