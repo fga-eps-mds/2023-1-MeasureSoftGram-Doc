@@ -8,7 +8,8 @@
 | 11 de Maio de 2023 | **Luis Marques**  |                    Inclusão de EVM                     | 1.1.0  |
 | 12 de Maio de 2023 | **Luis Marques**  | Inclusão de descrição de EVM e link de tabela completa | 1.1.1  |
 | 13 de Maio de 2023 | **Paulo Batista** |                  Revisão do documento                  | 1.1.1  |
-| 22 de Maio de 2023 | ** Luis Marques** |           Alteração do link da tabela de EVM           | 1.1.2  |
+| 22 de Maio de 2023 | **Luis Marques** |           Alteração do link da tabela de EVM           | 1.1.2  |
+| 22 de Maio de 2023 | **Marcos Tavares** |           Adiciona Formula e Referências do EVM       | 1.2.0  |
 
 ## Objetivo do documento
 
@@ -74,13 +75,9 @@ Earned Value Management (EVM), também conhecido como Gerenciamento do Valor Agr
 
 Para o cálculo do EVM, foram utilizadas as seguintes fórmulas:
 
--   **Valor Planejado (PV)**: Valor orçado para o trabalho planejado para ser realizado em uma atividade ou pacote de trabalho, expresso em termos de orçamento autorizado.
 
-    -   **Fórmula**: PV = BAC \* % planejado
-        -   **Onde**:
-            -   **BAC**: Custo orçado do projeto
-            -   **% planejado**: Porcentagem planejada para o trabalho a ser realizado
-            -   **PV**: Valor Planejado
+ ![EVM](../assets/images/formulas_evm.png "FONTE: (SULAIMAN; BARTON; BLACKBURN, 2006)")
+
 
 O sumário do valor planejado pode ser visto na tabela a seguir:
 
@@ -99,3 +96,7 @@ Para analisar os dados completos do projeto pode-se analisar nesse [link](https:
 [4]Tabela de tarifas de energia elétrica. Disponível em: https://www.neoenergiabrasilia.com.br/comercial-e-industrial/Documents/01_nbsb_tarifas_energia_eletrica_grupoB_nov_2022_reh3134.pdf. Acesso em 04/04/2023.
 
 [5] RAIO-X DO CUSTO POR ALUNO NAS UNIVERSIDADES FEDERAIS. Disponível em: https://infograficos.oglobo.globo.com/brasil/raio-x-do-custo-por-aluno-nas-universidades-federais.html. Acesso em 04/04/2023.
+
+[6] SULAIMAN, T.; BARTON, B.; BLACKBURN, T. AgileEVM - Earned Value Management in Scrum Projects. AGILE 2006 (AGILE’06). Anais... Em: AGILE 2006 (AGILE’06). Minneapolis, MN, USA: IEEE, 2006. Disponível em: <http://ieeexplore.ieee.org/document/1667558/>. Acesso em: 9 jul. 2023
+
+[7] VisualEasy 2022-1, Documentação, EVM. Dísponivel em: https://fga-eps-mds.github.io/2022-1-Visualeasy-Doc/documentacao/evm/. Acesso em 04/04/2023.
