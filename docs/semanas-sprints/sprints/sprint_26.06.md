@@ -3,17 +3,17 @@
 
 ##  Informações básicas
 
-| | |
-|:--:|:--:|
-|**Reunião**|--|
-|**Local da Reunião**|Teams|
-|**Data da reunião**|26/06/2023|
-|**Horário da reunião**|20h|
-||||
-|**Data de início da sprint**|26/06/2023|
-|**Data de término da sprint**|03/07/2023|
-|**Duração da sprint**|7 dias|
-|**Pontos na Sprint**|73|  
+|                               |            |
+| :---------------------------: | :--------: |
+|          **Reunião**          |     --     |
+|     **Local da Reunião**      |   Teams    |
+|      **Data da reunião**      | 26/06/2023 |
+|    **Horário da reunião**     |    20h     |
+|                               |            |  |
+| **Data de início da sprint**  | 26/06/2023 |
+| **Data de término da sprint** | 03/07/2023 |
+|     **Duração da sprint**     |   7 dias   |
+|     **Pontos na Sprint**      |     73     |
 
 
 ## Resumo dos Assuntos Falados
@@ -46,13 +46,13 @@
 
 ##  Histórias da Sprint
 
- |ID|História|Pontos|Responsáveis|
-|:-:|:-----:|:----:|:----------:|
-|[#27](https://github.com/fga-eps-mds/2023-1-MeasureSoftGram-Doc/issues/27)| US6: Criar parser genérico  |21|[liversonp](https://github.com/liversonp), [luisgfmarques](https://github.com/luisgfmarques) & [DaviMatheus](https://github.com/DaviMatheus)|
-| [#38](https://github.com/fga-eps-mds/2023-1-MeasureSoftGram-Doc/issues/38) | US14: Criação da action do Github  | 8  | [Paulo Batista](https://github.com/higton),[Guilherme Braz](https://github.com/GuilhermeBraz) |
-| [#22](https://github.com/fga-eps-mds/2023-1-MeasureSoftGram-Doc/issues/22) | US2: Criar gráfico de Gauge #21 | 5 |  [Igor](https://github.com/igorq937), [Carlos](https://github.com/CarlosFiuza) |
-| [#21](https://github.com/fga-eps-mds/2023-1-MeasureSoftGram-Doc/issues/21) | US2: Criar gráfico de Gauge #21 | 5 |  [Igor](https://github.com/igorq937), [Carlos](https://github.com/CarlosFiuza) |
-|[#101](https://github.com/fga-eps-mds/2023-1-MeasureSoftGram-Doc/issues/101) | US25 - Configuração dos tresholds na geração das releases #101| 8 |  [Giulia Lobo](https://github.com/Giuulob89), [Murilo Gomes](https://github.com/murilogds),  [Jhontan](https://github.com/Jonathan-Oliveira),[Marcos Gabriel](https://github.com/marcosgtavares)|
+ |                                      ID                                      |                            História                            | Pontos |                                                                                              Responsáveis                                                                                              |
+ | :--------------------------------------------------------------------------: | :------------------------------------------------------------: | :----: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+ |  [#27](https://github.com/fga-eps-mds/2023-1-MeasureSoftGram-Doc/issues/27)  |                   US6: Criar parser genérico                   |   21   |                              [liversonp](https://github.com/liversonp), [luisgfmarques](https://github.com/luisgfmarques) & [DaviMatheus](https://github.com/DaviMatheus)                              |
+ |  [#38](https://github.com/fga-eps-mds/2023-1-MeasureSoftGram-Doc/issues/38)  |               US14: Criação da action do Github                |   8    |                                                     [Paulo Batista](https://github.com/higton),[Guilherme Braz](https://github.com/GuilhermeBraz)                                                      |
+ |  [#22](https://github.com/fga-eps-mds/2023-1-MeasureSoftGram-Doc/issues/22)  |                US2: Criar gráfico de Gauge #21                 |   5    |                                                             [Igor](https://github.com/igorq937), [Carlos](https://github.com/CarlosFiuza)                                                              |
+ |  [#21](https://github.com/fga-eps-mds/2023-1-MeasureSoftGram-Doc/issues/21)  |                US2: Criar gráfico de Gauge #21                 |   5    |                                                             [Igor](https://github.com/igorq937), [Carlos](https://github.com/CarlosFiuza)                                                              |
+ | [#101](https://github.com/fga-eps-mds/2023-1-MeasureSoftGram-Doc/issues/101) | US25 - Configuração dos tresholds na geração das releases #101 |   8    | [Giulia Lobo](https://github.com/Giuulob89), [Murilo Gomes](https://github.com/murilogds),  [Jonathan Jorge](https://github.com/Jonathan-Oliveira),[Marcos Gabriel](https://github.com/marcosgtavares) |
 
 ## Retrospectiva da Sprint 26 Junho - 03 Julho, 2023
 

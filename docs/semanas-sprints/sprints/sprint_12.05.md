@@ -38,7 +38,7 @@
  |ID|História|Pontos|Responsáveis|
 |:-:|:-----:|:----:|:----------:|
 |[#25](https://github.com/fga-eps-mds/2023-1-MeasureSoftGram-Doc/issues/25)| US5: Não permitir acesso irrestrito ao site.|8|[Paulo Batista](https://github.com/higton), [Adrian ](https://github.com/SwampTG)|
-|[#20](https://github.com/fga-eps-mds/2023-1-MeasureSoftGram-Doc/issues/20)|  US1: Permitir inserir treshold via interface CLI | 8 | [Jhontan](https://github.com/Jonathan-Oliveira),[Marcos Gabriel](https://github.com/marcosgtavares) |
+|[#20](https://github.com/fga-eps-mds/2023-1-MeasureSoftGram-Doc/issues/20)|  US1: Permitir inserir treshold via interface CLI | 8 | [Jonathan Jorge](https://github.com/Jonathan-Oliveira),[Marcos Gabriel](https://github.com/marcosgtavares) |
 |[#37]
 
 ## Retrospectiva da Sprint  12 Maio - 19 Maio, 2023
