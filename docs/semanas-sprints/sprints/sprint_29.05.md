@@ -13,7 +13,7 @@
 |**Data de início da sprint**|29/05/2023|
 |**Data de término da sprint**|05/06/2023|
 |**Duração da sprint**|7 dias|
-|**Objetivos planejados**|5|  
+|**Pontos da Sprint**|5|  
 
 
 ## Resumo dos Assuntos Falados
@@ -59,8 +59,8 @@
 
  |ID|História|Pontos|Responsáveis|
 |:-:|:-----:|:----:|:----------:|
-|[#27](https://github.com/fga-eps-mds/2023-1-MeasureSoftGram-Doc/issues/27)| Eu como Paulo, Valeria, Miguel ou Amanda, gostaria de extrair métricas de software em diferentes fontes de informação, para conseguir quantificar medidas associadas à diferentes características e subcaracterísticas da qualidade..|21|[liversonp](https://github.com/liversonp), [luisgfmarques](https://github.com/luisgfmarques) & [DaviMatheus](https://github.com/DaviMatheus)|
-|[#51](https://github.com/fga-eps-mds/2023-1-MeasureSoftGram-Doc/issues/51) | 8 | US21: Armazenar as informações da action do Github #51  | [Paulo Batista](https://github.com/higton),[Guilherme Braz](https://github.com/GuilhermeBraz) |
+|[#27](https://github.com/fga-eps-mds/2023-1-MeasureSoftGram-Doc/issues/27)| US6: Criar parser genérico  |21|[liversonp](https://github.com/liversonp), [luisgfmarques](https://github.com/luisgfmarques) & [DaviMatheus](https://github.com/DaviMatheus)|
+| [#51](https://github.com/fga-eps-mds/2023-1-MeasureSoftGram-Doc/issues/51) | US21: Armazenar as informações da action do Github  | 8  | [Paulo Batista](https://github.com/higton),[Guilherme Braz](https://github.com/GuilhermeBraz) |
 
 ## Retrospectiva da Sprint 29 Maio - 5 Junho, 2023
 
