@@ -1,9 +1,10 @@
 ## 1. Versionamento
 
-|Versão|Data|Descrição|Autor(es)|
-|------|----|---------|-------- |
-|0.1   | 23/05/2023 | Criação do documento | Jonathan e Marcos |
-|0.2   | 26/05/2023 | Revisão do documento | Paulo Batista |
+| Versão | Data       | Descrição                   | Autor(es)         |
+| ------ | ---------- | --------------------------- | ----------------- |
+| 0.1    | 23/05/2023 | Criação do documento        | Jonathan e Marcos |
+| 0.2    | 26/05/2023 | Revisão do documento        | Paulo Batista     |
+| 0.3    | 09/07/2023 | Adição de comando do parser | Luis Marques      |
 
 ## 2. Manual de Uso da `CLI`
 
@@ -45,7 +46,7 @@ msgram -h
     Responsável por inicializar os arquivos e pastas de configuração que são utilizados nos comandos seguintes. O arquivo <b>msgram.json</b> de configuração das entidades é criado nessa etapa.
 </p>
 
-``` sh
+```sh
 msgram init -h
 ```
 
@@ -57,7 +58,7 @@ msgram init -h
 
 Exemplo de configuração de qualidade gerado pelo <b>init</b>:
 
-``` json
+```json
 {
     "characteristics": [
         {
@@ -121,6 +122,7 @@ Exemplo de configuração de qualidade gerado pelo <b>init</b>:
             ],
         }
 ```
+
 ##### 2.3.1.1 thresholds
 
 <p align="justify" style="text-indent: 20px">
@@ -131,14 +133,14 @@ Exemplo de configuração de qualidade gerado pelo <b>init</b>:
 </p>
 ``` json
 
-  {
-    "key": "duplication_absense",
-    "weight": 34,
-    "min_threshold": 0,
-    "max_threshold": 5,
-  }
-  
-```
+{
+"key": "duplication_absense",
+"weight": 34,
+"min_threshold": 0,
+"max_threshold": 5,
+}
+
+````
 
 **OBS:**
 
@@ -146,27 +148,26 @@ Exemplo de configuração de qualidade gerado pelo <b>init</b>:
 
 2. O threshold mínimo não pode ser maior, ou igual, o threshold máximo.
 
-3. Os valores mínimos e máximos também são utilizados para interpolação, portanto alguns são limitados entre 0 e 100 e outros são fixos. 
+3. Os valores mínimos e máximos também são utilizados para interpolação, portanto alguns são limitados entre 0 e 100 e outros são fixos.
 
 3. Segue os valores padrões de cada threshold:
 
 ```json
    {
         "min_complex_files_density": 0, #is complex if file cyclomatic complexity divided by number of functions is greater than max
-        "max_complex_files_density": 10, 
-        "min_comment_density": 10, #considers the files with comment density between min and max for the measure 
+        "max_complex_files_density": 10,
+        "min_comment_density": 10, #considers the files with comment density between min and max for the measure
         "max_comment_density": 30,
-        "min_duplicated_lines": 0, #is duplicated if file is over max 
-        "max_duplicated_lines": 5.0, 
-        "min_passed_tests": 0, #only used for interpolation, do not modify 
-        "max_passed_tests": 1, 
+        "min_duplicated_lines": 0, #is duplicated if file is over max
+        "max_duplicated_lines": 5.0,
+        "min_passed_tests": 0, #only used for interpolation, do not modify
+        "max_passed_tests": 1,
         "min_fast_test_time": 0, #the test is fast if time is bellow max
-        "max_fast_test_time": 300000, 
+        "max_fast_test_time": 300000,
         "min_coverage": 60, #consider files with coverage above min for the measure
-        "max_coverage": 100 
+        "max_coverage": 100
     }
-```
-
+````
 
 #### 2.3.2 msgram extract
 
@@ -184,26 +185,11 @@ Exemplo de configuração de qualidade gerado pelo <b>init</b>:
     - testing_status
     - modifiability
 
-??? info "Medidas disponíveis"
-    - passed_tests
-    - tests_build
-    - test_coverage
-    - non_complex_file_density
-    - commented_file_density
-    - duplication_absense
+??? info "Medidas disponíveis" - passed_tests - tests_build - test_coverage - non_complex_file_density - commented_file_density - duplication_absense
 
-??? info "Métricas disponíveis"
-    - tests [sonarqube]
-    - tests_failures [sonarqube]
-    - test_errors [sonarqube]
-    - test_execution_time [sonarqube]
-    - coverage [sonarqube]
-    - functions [sonarqube]
-    - complexity [sonarqube]
-    - comment_lines_density [sonarqube]
-    - duplicated_lines_density [sonarqube]
+??? info "Métricas disponíveis" - tests [sonarqube] - tests_failures [sonarqube] - test_errors [sonarqube] - test_execution_time [sonarqube] - coverage [sonarqube] - functions [sonarqube] - complexity [sonarqube] - comment_lines_density [sonarqube] - duplicated_lines_density [sonarqube]
 
-``` sh
+```sh
 msgram extract -h
 ```
 
