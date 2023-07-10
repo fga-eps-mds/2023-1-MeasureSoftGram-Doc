@@ -105,6 +105,13 @@ A forma utilizada para a identifação de riscos do projeto foi a análise de pr
 | R12 | Baixa produtividade dos integrantes do grupo |  Motivação da equipe através de dailys | Realizar checkpoints de saúde mental com os integrantes do grupo, ou elaboração de gamificação | 3 | 4 | 10 |
 | R13 | Conflitos de horários disponíveis para os integrantes. |  Montar uma grade com os horários disponíveis de cada membro. | Os pontos das sprints deve ser divido visando a carga horária compatível com o que os integrantes terão na semana, sendo maleável a mudanças(desde que o membro notifique o grupo no planejamento da sprint).| 4 | 3 | 10 | 
 
+###  Acompanhamento de Riscos 
+
+Durante o desenvolvimento de um projeto de software, é crucial acompanhar e monitorar os riscos envolvidos, uma vez que eles não são estáticos e podem variar em termos de gravidade ao longo do projeto. Com o objetivo de facilitar esse acompanhamento, foi desenvolvida uma planilha que permite inserir e atualizar a pontuação dos riscos em cada sprint.
+
+Essa planilha fornece uma visão clara e organizada dos riscos identificados, permitindo que a equipe monitore sua evolução ao longo do tempo. A pontuação dos riscos pode ser atribuída com base em critérios predefinidos, levando em consideração a probabilidade de ocorrência e o impacto caso ocorram
+
+<iframe width="700" height="760" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQVFmoVSvKqA-a0Ona5JMSiL1K6WTXewAwzQoWg2uj53BYPfekU10NFZflH4cteDsNHQL5AQa1eWbNN/pubhtml?widget=true&amp;headers=false"></iframe>
 
 ## Referências
 
