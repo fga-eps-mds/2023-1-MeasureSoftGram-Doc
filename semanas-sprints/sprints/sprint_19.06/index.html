@@ -1,0 +1,1688 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../sprint_12.06/">
+      
+      
+        <link rel="next" href="../sprint_26.06/">
+      
+      
+      <link rel="icon" href="../../../assets/logo.svg">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.6">
+    
+    
+      
+        <title>Sprint_19.06 - 2023-1 MeasureSoftGram</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.35e1ed30.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.356b1318.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="indigo">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#planejamento-da-sprint-19-junho-26-junho-2023" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="2023-1 MeasureSoftGram" class="md-header__button md-logo" aria-label="2023-1 MeasureSoftGram" data-md-component="logo">
+      
+  <img src="../../../assets/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            2023-1 MeasureSoftGram
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Sprint_19.06
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/fga-eps-mds/2023-1-MeasureSoftGram-Doc" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../manual-de-uso/cli/" class="md-tabs__link">
+          
+  
+  Manuais de Uso
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../guia_contribuicao/como_contribuir/" class="md-tabs__link">
+          
+  
+  Guia de contribuicao
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../documentos_de_projeto/plano_de_custos/" class="md-tabs__link">
+          
+  
+  Plano e monitoramento
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../heatmap_knowledge_table/heatmap/" class="md-tabs__link">
+          
+  
+  Heatmap e Tabela de Conhecimento
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../documentos_de_projeto/arquitetura_do_projeto/" class="md-tabs__link">
+          
+  
+  Documentação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../lean_inception/Introducao/" class="md-tabs__link">
+          
+  
+  Lean inception
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../sprint_12.05/" class="md-tabs__link">
+          
+  
+  Sprints
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="2023-1 MeasureSoftGram" class="md-nav__button md-logo" aria-label="2023-1 MeasureSoftGram" data-md-component="logo">
+      
+  <img src="../../../assets/logo.svg" alt="logo">
+
+    </a>
+    2023-1 MeasureSoftGram
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/fga-eps-mds/2023-1-MeasureSoftGram-Doc" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Manuais de Uso
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Manuais de Uso
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../manual-de-uso/cli/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CLI
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Guia de contribuicao
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Guia de contribuicao
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guia_contribuicao/como_contribuir/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Como contribuir
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guia_contribuicao/branches/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Política de Branches
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guia_contribuicao/commits/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Política de Commits
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../guia_contribuicao/CODE_OF_CONDUCT/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Código de conduta
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Plano e monitoramento
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Plano e monitoramento
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../documentos_de_projeto/plano_de_custos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Plano de custos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../documentos_de_projeto/agenda_e_ferramentas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Agenda e ferramentas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../documentos_de_projeto/eap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Estrutura analítica do projeto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../documentos_de_projeto/roadmap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Roadmap
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Heatmap e Tabela de Conhecimento
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Heatmap e Tabela de Conhecimento
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../heatmap_knowledge_table/heatmap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Heatmap
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../heatmap_knowledge_table/knowledge_table/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tabela de Conhecimento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Documentação
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Documentação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../documentos_de_projeto/arquitetura_do_projeto/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Arquitetura do projeto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../documentos_de_projeto/plano_de_riscos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento de Gerenciamento de Riscos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Lean inception
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Lean inception
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../lean_inception/Introducao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introdução
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../lean_inception/visao_do_produto/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Visão do produto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../lean_inception/E_Nao_E_Faz_Nao_Faz/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    É, Não É, Faz, Não Faz
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../lean_inception/Personas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Personas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../lean_inception/Jornada_de_usuario/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Jornada de Usuario
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../lean_inception/Brainstorming_Funcionalidades/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Brainstorming de Funcionalidades
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../lean_inception/Revisao_Tecnica/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Revisão Técnica, de Negócio e de UX
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../lean_inception/Sequenciador/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sequenciador
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../lean_inception/Canvas_MVP/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Canvas MVP
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../lean_inception/Mural/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mural
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Sprints
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Sprints
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprint_12.05/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    sprint_12.05
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprint_19.05/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprint_19.05
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprint_29.05/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprint_29.05
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprint_05.06/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprint_05.06
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprint_12.06/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprint_12.06
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Sprint_19.06
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Sprint_19.06
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#planejamento-da-sprint-19-junho-26-junho-2023" class="md-nav__link">
+    Planejamento da Sprint 19 Junho - 26 Junho, 2023
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#informacoes-basicas" class="md-nav__link">
+    Informações básicas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resumo-dos-assuntos-falados" class="md-nav__link">
+    Resumo dos Assuntos Falados
+  </a>
+  
+    <nav class="md-nav" aria-label="Resumo dos Assuntos Falados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us4-permitir-balanceamento-das-metricas-de-forma-dinamica-na-geracao-de-release" class="md-nav__link">
+    US4: Permitir balanceamento das métricas de forma dinâmica na geração de release
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us18-filtrar-caracteristicas-mostradas-nos-graficos-implementar-o-menu-lateral" class="md-nav__link">
+    US18: Filtrar características mostradas nos gráficos             Implementar o menu lateral
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#implementar-utilizacao-do-parser-generico-na-cli-114" class="md-nav__link">
+    Implementar utilização do parser generico na CLI #114
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#divida-alocada" class="md-nav__link">
+    Divida Alocada
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historias-da-sprint" class="md-nav__link">
+    Histórias da Sprint
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#retrospectiva-da-sprint-19-junho-26-junho-2023" class="md-nav__link">
+    Retrospectiva da Sprint 19 Junho - 26 Junho, 2023
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprint_26.06/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprint_26.06
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#planejamento-da-sprint-19-junho-26-junho-2023" class="md-nav__link">
+    Planejamento da Sprint 19 Junho - 26 Junho, 2023
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#informacoes-basicas" class="md-nav__link">
+    Informações básicas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resumo-dos-assuntos-falados" class="md-nav__link">
+    Resumo dos Assuntos Falados
+  </a>
+  
+    <nav class="md-nav" aria-label="Resumo dos Assuntos Falados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us4-permitir-balanceamento-das-metricas-de-forma-dinamica-na-geracao-de-release" class="md-nav__link">
+    US4: Permitir balanceamento das métricas de forma dinâmica na geração de release
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us18-filtrar-caracteristicas-mostradas-nos-graficos-implementar-o-menu-lateral" class="md-nav__link">
+    US18: Filtrar características mostradas nos gráficos             Implementar o menu lateral
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#implementar-utilizacao-do-parser-generico-na-cli-114" class="md-nav__link">
+    Implementar utilização do parser generico na CLI #114
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#divida-alocada" class="md-nav__link">
+    Divida Alocada
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historias-da-sprint" class="md-nav__link">
+    Histórias da Sprint
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#retrospectiva-da-sprint-19-junho-26-junho-2023" class="md-nav__link">
+    Retrospectiva da Sprint 19 Junho - 26 Junho, 2023
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+  <h1>Sprint_19.06</h1>
+
+<h2 id="planejamento-da-sprint-19-junho-26-junho-2023">Planejamento da Sprint 19 Junho - 26 Junho, 2023</h2>
+<h2 id="informacoes-basicas">Informações básicas</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"></th>
+<th style="text-align: center;"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>Reunião</strong></td>
+<td style="text-align: center;">--</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Local da Reunião</strong></td>
+<td style="text-align: center;">Teams</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Data da reunião</strong></td>
+<td style="text-align: center;">19/06/2023</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Horário da reunião</strong></td>
+<td style="text-align: center;">20h</td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Data de início da sprint</strong></td>
+<td style="text-align: center;">19/06/2023</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Data de término da sprint</strong></td>
+<td style="text-align: center;">26/06/2023</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Duração da sprint</strong></td>
+<td style="text-align: center;">7 dias</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Pontos na Sprint</strong></td>
+<td style="text-align: center;">79</td>
+</tr>
+</tbody>
+</table>
+<h2 id="resumo-dos-assuntos-falados">Resumo dos Assuntos Falados</h2>
+<h3 id="us4-permitir-balanceamento-das-metricas-de-forma-dinamica-na-geracao-de-release">US4: Permitir balanceamento das métricas de forma dinâmica na geração de release</h3>
+<pre><code>       balancear as minhas metas de forma unitária, sem depender de relação com outras métricas
+       facilidade de manuseio das metas de acordo com as necessidades principais de uma release.
+</code></pre>
+<h3 id="us18-filtrar-caracteristicas-mostradas-nos-graficos-implementar-o-menu-lateral">US18: Filtrar características mostradas nos gráficos             Implementar o menu lateral</h3>
+<pre><code>        Implementar as medidas em forma de tree list (Características &gt; Subcaracterísticas &gt; Medidas &gt; Métricas)
+        Implementar pesquisa textual
+</code></pre>
+<h3 id="implementar-utilizacao-do-parser-generico-na-cli-114">Implementar utilização do parser generico na CLI #114</h3>
+<pre><code>        A CLI deve utilizar a nova implementação do parser genérico disponível como pacote pypi.
+</code></pre>
+<h2 id="divida-alocada">Divida Alocada</h2>
+<ul>
+<li>Parser no Github</li>
+<li>US21: Armazenar as informações da action do Github #51</li>
+</ul>
+<h2 id="historias-da-sprint">Histórias da Sprint</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">ID</th>
+<th style="text-align: center;">História</th>
+<th style="text-align: center;">Pontos</th>
+<th style="text-align: center;">Responsáveis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="https://github.com/fga-eps-mds/2023-1-MeasureSoftGram-Doc/issues/27">#27</a></td>
+<td style="text-align: center;">US6: Criar parser genérico</td>
+<td style="text-align: center;">21</td>
+<td style="text-align: center;"><a href="https://github.com/liversonp">liversonp</a>, <a href="https://github.com/luisgfmarques">luisgfmarques</a> &amp; <a href="https://github.com/DaviMatheus">DaviMatheus</a></td>
+</tr>
+<tr>
+<td style="text-align: center;"><a href="https://github.com/fga-eps-mds/2023-1-MeasureSoftGram-Doc/issues/38">#38</a></td>
+<td style="text-align: center;">US14: Criação da action do Github</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;"><a href="https://github.com/higton">Paulo Batista</a>,<a href="https://github.com/GuilhermeBraz">Guilherme Braz</a></td>
+</tr>
+<tr>
+<td style="text-align: center;"><a href="https://github.com/fga-eps-mds/2023-1-MeasureSoftGram-Doc/issues/47">#47</a></td>
+<td style="text-align: center;">US18: Filtrar características mostradas nos gráficos</td>
+<td style="text-align: center;">21</td>
+<td style="text-align: center;"><a href="https://github.com/igorq937">Igor</a>, <a href="https://github.com/CarlosFiuza">Carlos</a></td>
+</tr>
+<tr>
+<td style="text-align: center;"><a href="https://github.com/fga-eps-mds/2023-1-MeasureSoftGram-Doc/issues/23">#23</a></td>
+<td style="text-align: center;">US4: Permitir balanceamento das métricas de forma dinâmica na geração de release</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"><a href="https://github.com/Giuulob89">Giulia Lobo</a>, <a href="https://github.com/murilogds">Murilo Gomes</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="retrospectiva-da-sprint-19-junho-26-junho-2023">Retrospectiva da Sprint 19 Junho - 26 Junho, 2023</h2>
+<ul>
+<li>Para nossa retrospectiva relizamos as 3 perguntas para melhor entendar a semanas de todos os integrantes:<pre><code>    - No que você trabalhou na última sprint?
+    - No que você pretende trabalhar para a próxima?
+    - Você tem algum impedimento
+</code></pre>
+</li>
+</ul>
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVM_BQLvs=/?moveToViewport=-2957,-1549,4986,2343&embedId=710374206052" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": "navigation.tabs", "search": "../../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.aecac24b.min.js"></script>
+      
+    
+  </body>
+</html>

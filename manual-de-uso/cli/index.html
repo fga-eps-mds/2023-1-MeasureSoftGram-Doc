@@ -1,0 +1,1796 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../..">
+      
+      
+        <link rel="next" href="../../guia_contribuicao/como_contribuir/">
+      
+      
+      <link rel="icon" href="../../assets/logo.svg">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.6">
+    
+    
+      
+        <title>CLI - 2023-1 MeasureSoftGram</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.35e1ed30.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.356b1318.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="indigo">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#1-versionamento" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="2023-1 MeasureSoftGram" class="md-header__button md-logo" aria-label="2023-1 MeasureSoftGram" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            2023-1 MeasureSoftGram
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              CLI
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/fga-eps-mds/2023-1-MeasureSoftGram-Doc" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  Manuais de Uso
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../guia_contribuicao/como_contribuir/" class="md-tabs__link">
+          
+  
+  Guia de contribuicao
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../documentos_de_projeto/plano_de_custos/" class="md-tabs__link">
+          
+  
+  Plano e monitoramento
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../heatmap_knowledge_table/heatmap/" class="md-tabs__link">
+          
+  
+  Heatmap e Tabela de Conhecimento
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../documentos_de_projeto/arquitetura_do_projeto/" class="md-tabs__link">
+          
+  
+  Documentação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../lean_inception/Introducao/" class="md-tabs__link">
+          
+  
+  Lean inception
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../semanas-sprints/sprints/sprint_12.05/" class="md-tabs__link">
+          
+  
+  Sprints
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="2023-1 MeasureSoftGram" class="md-nav__button md-logo" aria-label="2023-1 MeasureSoftGram" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="logo">
+
+    </a>
+    2023-1 MeasureSoftGram
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/fga-eps-mds/2023-1-MeasureSoftGram-Doc" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Manuais de Uso
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Manuais de Uso
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    CLI
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    CLI
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-versionamento" class="md-nav__link">
+    1. Versionamento
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-manual-de-uso-da-cli" class="md-nav__link">
+    2. Manual de Uso da CLI
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Manual de Uso da CLI">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-o-que-e-o-microsservico-cli" class="md-nav__link">
+    2.1 O que é o microsserviço CLI
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-como-executar-a-cli" class="md-nav__link">
+    2.2 Como executar a CLI
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-comandos-existentes-na-cli" class="md-nav__link">
+    2.3 Comandos existentes na CLI
+  </a>
+  
+    <nav class="md-nav" aria-label="2.3 Comandos existentes na CLI">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#231-msgram-init" class="md-nav__link">
+    2.3.1 msgram init
+  </a>
+  
+    <nav class="md-nav" aria-label="2.3.1 msgram init">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2311-thresholds" class="md-nav__link">
+    2.3.1.1 thresholds
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#233-msgram-calculate" class="md-nav__link">
+    2.3.3 msgram calculate
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Guia de contribuicao
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Guia de contribuicao
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia_contribuicao/como_contribuir/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Como contribuir
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia_contribuicao/branches/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Política de Branches
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia_contribuicao/commits/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Política de Commits
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia_contribuicao/CODE_OF_CONDUCT/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Código de conduta
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Plano e monitoramento
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Plano e monitoramento
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documentos_de_projeto/plano_de_custos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Plano de custos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documentos_de_projeto/agenda_e_ferramentas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Agenda e ferramentas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documentos_de_projeto/eap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Estrutura analítica do projeto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documentos_de_projeto/roadmap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Roadmap
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Heatmap e Tabela de Conhecimento
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Heatmap e Tabela de Conhecimento
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../heatmap_knowledge_table/heatmap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Heatmap
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../heatmap_knowledge_table/knowledge_table/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tabela de Conhecimento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Documentação
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Documentação
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documentos_de_projeto/arquitetura_do_projeto/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Arquitetura do projeto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documentos_de_projeto/plano_de_riscos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento de Gerenciamento de Riscos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Lean inception
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Lean inception
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lean_inception/Introducao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introdução
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lean_inception/visao_do_produto/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Visão do produto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lean_inception/E_Nao_E_Faz_Nao_Faz/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    É, Não É, Faz, Não Faz
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lean_inception/Personas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Personas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lean_inception/Jornada_de_usuario/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Jornada de Usuario
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lean_inception/Brainstorming_Funcionalidades/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Brainstorming de Funcionalidades
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lean_inception/Revisao_Tecnica/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Revisão Técnica, de Negócio e de UX
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lean_inception/Sequenciador/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sequenciador
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lean_inception/Canvas_MVP/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Canvas MVP
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lean_inception/Mural/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mural
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Sprints
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Sprints
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semanas-sprints/sprints/sprint_12.05/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    sprint_12.05
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semanas-sprints/sprints/sprint_19.05/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprint_19.05
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semanas-sprints/sprints/sprint_29.05/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprint_29.05
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semanas-sprints/sprints/sprint_05.06/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprint_05.06
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semanas-sprints/sprints/sprint_12.06/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprint_12.06
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semanas-sprints/sprints/sprint_19.06/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprint_19.06
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semanas-sprints/sprints/sprint_26.06/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprint_26.06
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-versionamento" class="md-nav__link">
+    1. Versionamento
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-manual-de-uso-da-cli" class="md-nav__link">
+    2. Manual de Uso da CLI
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Manual de Uso da CLI">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-o-que-e-o-microsservico-cli" class="md-nav__link">
+    2.1 O que é o microsserviço CLI
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-como-executar-a-cli" class="md-nav__link">
+    2.2 Como executar a CLI
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-comandos-existentes-na-cli" class="md-nav__link">
+    2.3 Comandos existentes na CLI
+  </a>
+  
+    <nav class="md-nav" aria-label="2.3 Comandos existentes na CLI">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#231-msgram-init" class="md-nav__link">
+    2.3.1 msgram init
+  </a>
+  
+    <nav class="md-nav" aria-label="2.3.1 msgram init">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2311-thresholds" class="md-nav__link">
+    2.3.1.1 thresholds
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#233-msgram-calculate" class="md-nav__link">
+    2.3.3 msgram calculate
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+  <h1>CLI</h1>
+
+<h2 id="1-versionamento">1. Versionamento</h2>
+<table>
+<thead>
+<tr>
+<th>Versão</th>
+<th>Data</th>
+<th>Descrição</th>
+<th>Autor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.1</td>
+<td>23/05/2023</td>
+<td>Criação do documento</td>
+<td>Jonathan e Marcos</td>
+</tr>
+<tr>
+<td>0.2</td>
+<td>26/05/2023</td>
+<td>Revisão do documento</td>
+<td>Paulo Batista</td>
+</tr>
+<tr>
+<td>0.3</td>
+<td>09/07/2023</td>
+<td>Adição de comando do parser</td>
+<td>Luis Marques</td>
+</tr>
+</tbody>
+</table>
+<h2 id="2-manual-de-uso-da-cli">2. Manual de Uso da <code>CLI</code></h2>
+<h3 id="21-o-que-e-o-microsservico-cli">2.1 O que é o microsserviço <code>CLI</code></h3>
+<p align="justify" style="text-indent: 20px">
+    Esse microsserviço dentro do produto MeasureSoftGram se trata da interface de linha de comandos, que utiliza o pacote de cálculos da Core por trás dos panos, para gerar análises de qualidade dos repositórios. Se trata de um pacote <a href="https://pypi.org/project/msgram/">Pypi</a> totalmente independente, que tem como foco a utilização local (sem necessidade de internet).
+</p>
+
+<h3 id="22-como-executar-a-cli">2.2 Como executar a <code>CLI</code></h3>
+<p align="justify" style="text-indent: 20px">
+    Para iniciar a utilização da CLI, baixe o pacote do repositório <a href="https://pypi.org/project/msgram/">Pypi</a>.
+</p>
+
+<div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>msgram
+</code></pre></div>
+<p align="justify" style="text-indent: 20px">
+    Agora todas as funcionalidades disponíveis da CLI do MeasureSoftGram estão disponíveis pelo seguinte comando: msgram
+</p>
+
+<div class="highlight"><pre><span></span><code>msgram<span class="w"> </span>-h
+</code></pre></div>
+<p><img alt="msgram_help" src="../../assets/images/msgram.png" /></p>
+<h3 id="23-comandos-existentes-na-cli">2.3 Comandos existentes na <code>CLI</code></h3>
+<p align="justify" style="text-indent: 20px">
+    Como demonstrado na foto anterior, a CLI do MeasureSoftGram possui três comandos:
+</p>
+
+<h4 id="231-msgram-init">2.3.1 msgram init</h4>
+<p align="justify" style="text-indent: 20px">
+    Responsável por inicializar os arquivos e pastas de configuração que são utilizados nos comandos seguintes. O arquivo <b>msgram.json</b> de configuração das entidades é criado nessa etapa.
+</p>
+
+<div class="highlight"><pre><span></span><code>msgram<span class="w"> </span>init<span class="w"> </span>-h
+</code></pre></div>
+<p><center></p>
+<p><img alt="msgram_init" src="../../assets/images/msgram_init.png" /></p>
+<p></center></p>
+<p>Exemplo de configuração de qualidade gerado pelo <b>init</b>:</p>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;characteristics&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;key&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;reliability&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;weight&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">50</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;subcharacteristics&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                </span><span class="p">{</span>
+<span class="w">                    </span><span class="nt">&quot;key&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;testing_status&quot;</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;weight&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;measures&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                        </span><span class="p">{</span>
+<span class="w">                            </span><span class="nt">&quot;key&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;passed_tests&quot;</span><span class="p">,</span>
+<span class="w">                            </span><span class="nt">&quot;weight&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">33</span><span class="p">,</span>
+<span class="w">                            </span><span class="nt">&quot;min_threshold&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
+<span class="w">                            </span><span class="nt">&quot;max_threshold&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+<span class="w">                        </span><span class="p">},</span>
+<span class="w">                        </span><span class="p">{</span>
+<span class="w">                            </span><span class="nt">&quot;key&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;test_builds&quot;</span><span class="p">,</span>
+<span class="w">                            </span><span class="nt">&quot;weight&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">33</span><span class="p">,</span>
+<span class="w">                            </span><span class="nt">&quot;min_threshold&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
+<span class="w">                            </span><span class="nt">&quot;max_threshold&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">300000</span><span class="p">,</span>
+<span class="w">                        </span><span class="p">},</span>
+<span class="w">                        </span><span class="p">{</span>
+<span class="w">                            </span><span class="nt">&quot;key&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;test_coverage&quot;</span><span class="p">,</span>
+<span class="w">                            </span><span class="nt">&quot;weight&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">34</span><span class="p">,</span>
+<span class="w">                            </span><span class="nt">&quot;min_threshold&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">60</span><span class="p">,</span>
+<span class="w">                            </span><span class="nt">&quot;max_threshold&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="p">,</span>
+<span class="w">                        </span><span class="p">},</span>
+<span class="w">                    </span><span class="p">],</span>
+<span class="w">                </span><span class="p">}</span>
+<span class="w">            </span><span class="p">],</span>
+<span class="w">        </span><span class="p">},</span>
+<span class="w">        </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">&quot;key&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;maintainability&quot;</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;weight&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">50</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">&quot;subcharacteristics&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                </span><span class="p">{</span>
+<span class="w">                    </span><span class="nt">&quot;key&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;modifiability&quot;</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;weight&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="p">,</span>
+<span class="w">                    </span><span class="nt">&quot;measures&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                        </span><span class="p">{</span>
+<span class="w">                            </span><span class="nt">&quot;key&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;non_complex_file_density&quot;</span><span class="p">,</span>
+<span class="w">                            </span><span class="nt">&quot;weight&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">33</span><span class="p">,</span>
+<span class="w">                            </span><span class="nt">&quot;min_threshold&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
+<span class="w">                            </span><span class="nt">&quot;max_threshold&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span>
+<span class="w">                        </span><span class="p">},</span>
+<span class="w">                        </span><span class="p">{</span>
+<span class="w">                            </span><span class="nt">&quot;key&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;commented_file_density&quot;</span><span class="p">,</span>
+<span class="w">                            </span><span class="nt">&quot;weight&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">33</span><span class="p">,</span>
+<span class="w">                            </span><span class="nt">&quot;min_threshold&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span>
+<span class="w">                            </span><span class="nt">&quot;max_threshold&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">30</span><span class="p">,</span>
+<span class="w">                        </span><span class="p">},</span>
+<span class="w">                        </span><span class="p">{</span>
+<span class="w">                            </span><span class="nt">&quot;key&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;duplication_absense&quot;</span><span class="p">,</span>
+<span class="w">                            </span><span class="nt">&quot;weight&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">34</span><span class="p">,</span>
+<span class="w">                            </span><span class="nt">&quot;min_threshold&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
+<span class="w">                            </span><span class="nt">&quot;max_threshold&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span>
+<span class="w">                        </span><span class="p">},</span>
+<span class="w">                    </span><span class="p">],</span>
+<span class="w">                </span><span class="p">}</span>
+<span class="w">            </span><span class="p">],</span>
+<span class="w">        </span><span class="p">}</span>
+</code></pre></div>
+<h5 id="2311-thresholds">2.3.1.1 thresholds</h5>
+<p align="justify" style="text-indent: 20px">
+    Através do arquivo de configuração é possível modificar os valores de referência mínimo e máximo das medidas do modelo, permitindo a personalização das variáveis de acordo com a preferência dos usuários.
+</p>
+<p align="justify" style="text-indent: 20px">
+    Para modificar os thresholds basta adicionar a chave thresholds no json de configuração demonstrado acima e passando como valor o nome dos thresholds que deseja modificar e seus respectivos valores como mostrado abaixo.
+</p>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="nt">&quot;key&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;duplication_absense&quot;</span><span class="p">,</span>
+<span class="nt">&quot;weight&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">34</span><span class="p">,</span>
+<span class="nt">&quot;min_threshold&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
+<span class="nt">&quot;max_threshold&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span>
+<span class="p">}</span>
+
+<span class="err">````</span>
+
+<span class="err">**OBS</span><span class="p">:</span><span class="err">**</span>
+
+<span class="mf">1.</span><span class="w"> </span><span class="err">Caso</span><span class="w"> </span><span class="err">o</span><span class="w"> </span><span class="err">valor</span><span class="w"> </span><span class="kc">n</span><span class="err">ão</span><span class="w"> </span><span class="kc">f</span><span class="err">or</span><span class="w"> </span><span class="err">passado</span><span class="w"> </span><span class="err">o</span><span class="w"> </span><span class="err">msgram</span><span class="w"> </span><span class="err">irá</span><span class="w"> </span><span class="err">u</span><span class="kc">t</span><span class="err">ilizar</span><span class="w"> </span><span class="err">os</span><span class="w"> </span><span class="err">valores</span><span class="w"> </span><span class="err">padrões.</span>
+
+<span class="mf">2.</span><span class="w"> </span><span class="err">O</span><span class="w"> </span><span class="kc">t</span><span class="err">hreshold</span><span class="w"> </span><span class="err">mí</span><span class="kc">n</span><span class="err">imo</span><span class="w"> </span><span class="kc">n</span><span class="err">ão</span><span class="w"> </span><span class="err">pode</span><span class="w"> </span><span class="err">ser</span><span class="w"> </span><span class="err">maior</span><span class="p">,</span><span class="w"> </span><span class="err">ou</span><span class="w"> </span><span class="err">igual</span><span class="p">,</span><span class="w"> </span><span class="err">o</span><span class="w"> </span><span class="kc">t</span><span class="err">hreshold</span><span class="w"> </span><span class="err">máximo.</span>
+
+<span class="mf">3.</span><span class="w"> </span><span class="err">Os</span><span class="w"> </span><span class="err">valores</span><span class="w"> </span><span class="err">mí</span><span class="kc">n</span><span class="err">imos</span><span class="w"> </span><span class="err">e</span><span class="w"> </span><span class="err">máximos</span><span class="w"> </span><span class="kc">ta</span><span class="err">mbém</span><span class="w"> </span><span class="err">são</span><span class="w"> </span><span class="err">u</span><span class="kc">t</span><span class="err">ilizados</span><span class="w"> </span><span class="err">para</span><span class="w"> </span><span class="err">i</span><span class="kc">nter</span><span class="err">polação</span><span class="p">,</span><span class="w"> </span><span class="err">por</span><span class="kc">tant</span><span class="err">o</span><span class="w"> </span><span class="err">algu</span><span class="kc">ns</span><span class="w"> </span><span class="err">são</span><span class="w"> </span><span class="err">limi</span><span class="kc">ta</span><span class="err">dos</span><span class="w"> </span><span class="err">e</span><span class="kc">ntre</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="err">e</span><span class="w"> </span><span class="mi">100</span><span class="w"> </span><span class="err">e</span><span class="w"> </span><span class="err">ou</span><span class="kc">tr</span><span class="err">os</span><span class="w"> </span><span class="err">são</span><span class="w"> </span><span class="kc">f</span><span class="err">ixos.</span>
+
+<span class="mf">3.</span><span class="w"> </span><span class="err">Segue</span><span class="w"> </span><span class="err">os</span><span class="w"> </span><span class="err">valores</span><span class="w"> </span><span class="err">padrões</span><span class="w"> </span><span class="err">de</span><span class="w"> </span><span class="err">cada</span><span class="w"> </span><span class="kc">t</span><span class="err">hreshold</span><span class="p">:</span>
+
+<span class="err">```jso</span><span class="kc">n</span>
+<span class="w">   </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;min_complex_files_density&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="err">#is</span><span class="w"> </span><span class="err">complex</span><span class="w"> </span><span class="err">i</span><span class="kc">f</span><span class="w"> </span><span class="kc">f</span><span class="err">ile</span><span class="w"> </span><span class="err">cycloma</span><span class="kc">t</span><span class="err">ic</span><span class="w"> </span><span class="err">complexi</span><span class="kc">t</span><span class="err">y</span><span class="w"> </span><span class="err">divided</span><span class="w"> </span><span class="err">by</span><span class="w"> </span><span class="kc">nu</span><span class="err">mber</span><span class="w"> </span><span class="err">o</span><span class="kc">f</span><span class="w"> </span><span class="kc">fun</span><span class="err">c</span><span class="kc">t</span><span class="err">io</span><span class="kc">ns</span><span class="w"> </span><span class="err">is</span><span class="w"> </span><span class="err">grea</span><span class="kc">ter</span><span class="w"> </span><span class="kc">t</span><span class="err">ha</span><span class="kc">n</span><span class="w"> </span><span class="err">max</span>
+<span class="w">        </span><span class="nt">&quot;max_complex_files_density&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;min_comment_density&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="err">#co</span><span class="kc">ns</span><span class="err">iders</span><span class="w"> </span><span class="kc">t</span><span class="err">he</span><span class="w"> </span><span class="kc">f</span><span class="err">iles</span><span class="w"> </span><span class="err">wi</span><span class="kc">t</span><span class="err">h</span><span class="w"> </span><span class="err">comme</span><span class="kc">nt</span><span class="w"> </span><span class="err">de</span><span class="kc">ns</span><span class="err">i</span><span class="kc">t</span><span class="err">y</span><span class="w"> </span><span class="err">be</span><span class="kc">t</span><span class="err">wee</span><span class="kc">n</span><span class="w"> </span><span class="err">mi</span><span class="kc">n</span><span class="w"> </span><span class="err">a</span><span class="kc">n</span><span class="err">d</span><span class="w"> </span><span class="err">max</span><span class="w"> </span><span class="kc">f</span><span class="err">or</span><span class="w"> </span><span class="kc">t</span><span class="err">he</span><span class="w"> </span><span class="err">measure</span>
+<span class="w">        </span><span class="nt">&quot;max_comment_density&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">30</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;min_duplicated_lines&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="err">#is</span><span class="w"> </span><span class="err">duplica</span><span class="kc">te</span><span class="err">d</span><span class="w"> </span><span class="err">i</span><span class="kc">f</span><span class="w"> </span><span class="kc">f</span><span class="err">ile</span><span class="w"> </span><span class="err">is</span><span class="w"> </span><span class="err">over</span><span class="w"> </span><span class="err">max</span>
+<span class="w">        </span><span class="nt">&quot;max_duplicated_lines&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">5.0</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;min_passed_tests&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="err">#o</span><span class="kc">nl</span><span class="err">y</span><span class="w"> </span><span class="err">used</span><span class="w"> </span><span class="kc">f</span><span class="err">or</span><span class="w"> </span><span class="err">i</span><span class="kc">nter</span><span class="err">pola</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="p">,</span><span class="w"> </span><span class="err">do</span><span class="w"> </span><span class="kc">n</span><span class="err">o</span><span class="kc">t</span><span class="w"> </span><span class="err">modi</span><span class="kc">f</span><span class="err">y</span>
+<span class="w">        </span><span class="nt">&quot;max_passed_tests&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;min_fast_test_time&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="err">#</span><span class="kc">t</span><span class="err">he</span><span class="w"> </span><span class="kc">test</span><span class="w"> </span><span class="err">is</span><span class="w"> </span><span class="kc">fast</span><span class="w"> </span><span class="err">i</span><span class="kc">f</span><span class="w"> </span><span class="kc">t</span><span class="err">ime</span><span class="w"> </span><span class="err">is</span><span class="w"> </span><span class="err">bellow</span><span class="w"> </span><span class="err">max</span>
+<span class="w">        </span><span class="nt">&quot;max_fast_test_time&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">300000</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;min_coverage&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">60</span><span class="p">,</span><span class="w"> </span><span class="err">#co</span><span class="kc">ns</span><span class="err">ider</span><span class="w"> </span><span class="kc">f</span><span class="err">iles</span><span class="w"> </span><span class="err">wi</span><span class="kc">t</span><span class="err">h</span><span class="w"> </span><span class="err">coverage</span><span class="w"> </span><span class="err">above</span><span class="w"> </span><span class="err">mi</span><span class="kc">n</span><span class="w"> </span><span class="kc">f</span><span class="err">or</span><span class="w"> </span><span class="kc">t</span><span class="err">he</span><span class="w"> </span><span class="err">measure</span>
+<span class="w">        </span><span class="nt">&quot;max_coverage&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="err">````</span>
+
+<span class="err">####</span><span class="w"> </span><span class="mf">2.3.2</span><span class="w"> </span><span class="err">msgram</span><span class="w"> </span><span class="err">ex</span><span class="kc">tra</span><span class="err">c</span><span class="kc">t</span>
+
+<span class="err">&lt;p</span><span class="w"> </span><span class="err">alig</span><span class="kc">n</span><span class="err">=</span><span class="s2">&quot;justify&quot;</span><span class="w"> </span><span class="err">s</span><span class="kc">t</span><span class="err">yle=</span><span class="s2">&quot;text-indent: 20px&quot;</span><span class="err">&gt;</span>
+<span class="w">    </span><span class="err">Respo</span><span class="kc">ns</span><span class="err">ável</span><span class="w"> </span><span class="err">por</span><span class="w"> </span><span class="err">ex</span><span class="kc">tra</span><span class="err">ir</span><span class="w"> </span><span class="err">os</span><span class="w"> </span><span class="err">dados</span><span class="w"> </span><span class="err">advi</span><span class="kc">n</span><span class="err">dos</span><span class="w"> </span><span class="err">dos</span><span class="w"> </span><span class="err">a</span><span class="kc">nal</span><span class="err">isadores</span><span class="w"> </span><span class="err">de</span><span class="w"> </span><span class="err">código</span><span class="w"> </span><span class="err">(parsers).</span><span class="w"> </span><span class="err">A</span><span class="kc">t</span><span class="err">é</span><span class="w"> </span><span class="err">a</span><span class="w"> </span><span class="err">versão</span><span class="w"> </span><span class="mf">1.0.0</span><span class="p">,</span><span class="w"> </span><span class="err">o</span><span class="w"> </span><span class="err">MeasureSo</span><span class="kc">ft</span><span class="err">Gram</span><span class="w"> </span><span class="err">supor</span><span class="kc">ta</span><span class="w"> </span><span class="err">as</span><span class="w"> </span><span class="err">segui</span><span class="kc">ntes</span><span class="w"> </span><span class="err">e</span><span class="kc">nt</span><span class="err">idades</span><span class="p">:</span>
+<span class="err">&lt;/p&gt;</span>
+
+<span class="err">???</span><span class="w"> </span><span class="err">i</span><span class="kc">nf</span><span class="err">o</span><span class="w"> </span><span class="s2">&quot;Características disponíveis&quot;</span>
+
+<span class="w">    </span><span class="mi">-</span><span class="w"> </span><span class="err">Reliabili</span><span class="kc">t</span><span class="err">y</span>
+<span class="w">    </span><span class="mi">-</span><span class="w"> </span><span class="err">Mai</span><span class="kc">nta</span><span class="err">i</span><span class="kc">na</span><span class="err">bili</span><span class="kc">t</span><span class="err">y</span>
+
+<span class="err">???</span><span class="w"> </span><span class="err">i</span><span class="kc">nf</span><span class="err">o</span><span class="w"> </span><span class="s2">&quot;Subcaracterísticas disponíveis&quot;</span>
+
+<span class="w">    </span><span class="mi">-</span><span class="w"> </span><span class="kc">test</span><span class="err">i</span><span class="kc">n</span><span class="err">g_s</span><span class="kc">tatus</span>
+<span class="w">    </span><span class="mi">-</span><span class="w"> </span><span class="err">modi</span><span class="kc">f</span><span class="err">iabili</span><span class="kc">t</span><span class="err">y</span>
+
+<span class="err">???</span><span class="w"> </span><span class="err">i</span><span class="kc">nf</span><span class="err">o</span><span class="w"> </span><span class="s2">&quot;Medidas disponíveis&quot;</span><span class="w"> </span><span class="mi">-</span><span class="w"> </span><span class="err">passed_</span><span class="kc">tests</span><span class="w"> </span><span class="mi">-</span><span class="w"> </span><span class="kc">tests</span><span class="err">_build</span><span class="w"> </span><span class="mi">-</span><span class="w"> </span><span class="kc">test</span><span class="err">_coverage</span><span class="w"> </span><span class="mi">-</span><span class="w"> </span><span class="kc">n</span><span class="err">o</span><span class="kc">n</span><span class="err">_complex_</span><span class="kc">f</span><span class="err">ile_de</span><span class="kc">ns</span><span class="err">i</span><span class="kc">t</span><span class="err">y</span><span class="w"> </span><span class="mi">-</span><span class="w"> </span><span class="err">comme</span><span class="kc">nte</span><span class="err">d_</span><span class="kc">f</span><span class="err">ile_de</span><span class="kc">ns</span><span class="err">i</span><span class="kc">t</span><span class="err">y</span><span class="w"> </span><span class="mi">-</span><span class="w"> </span><span class="err">duplica</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">_abse</span><span class="kc">nse</span>
+
+<span class="err">???</span><span class="w"> </span><span class="err">i</span><span class="kc">nf</span><span class="err">o</span><span class="w"> </span><span class="s2">&quot;Métricas disponíveis&quot;</span><span class="w"> </span><span class="mi">-</span><span class="w"> </span><span class="kc">tests</span><span class="w"> </span><span class="p">[</span><span class="err">so</span><span class="kc">nar</span><span class="err">qube</span><span class="p">]</span><span class="w"> </span><span class="mi">-</span><span class="w"> </span><span class="kc">tests</span><span class="err">_</span><span class="kc">fa</span><span class="err">ilures</span><span class="w"> </span><span class="p">[</span><span class="err">so</span><span class="kc">nar</span><span class="err">qube</span><span class="p">]</span><span class="w"> </span><span class="mi">-</span><span class="w"> </span><span class="kc">test</span><span class="err">_errors</span><span class="w"> </span><span class="p">[</span><span class="err">so</span><span class="kc">nar</span><span class="err">qube</span><span class="p">]</span><span class="w"> </span><span class="mi">-</span><span class="w"> </span><span class="kc">test</span><span class="err">_execu</span><span class="kc">t</span><span class="err">io</span><span class="kc">n</span><span class="err">_</span><span class="kc">t</span><span class="err">ime</span><span class="w"> </span><span class="p">[</span><span class="err">so</span><span class="kc">nar</span><span class="err">qube</span><span class="p">]</span><span class="w"> </span><span class="mi">-</span><span class="w"> </span><span class="err">coverage</span><span class="w"> </span><span class="p">[</span><span class="err">so</span><span class="kc">nar</span><span class="err">qube</span><span class="p">]</span><span class="w"> </span><span class="mi">-</span><span class="w"> </span><span class="kc">fun</span><span class="err">c</span><span class="kc">t</span><span class="err">io</span><span class="kc">ns</span><span class="w"> </span><span class="p">[</span><span class="err">so</span><span class="kc">nar</span><span class="err">qube</span><span class="p">]</span><span class="w"> </span><span class="mi">-</span><span class="w"> </span><span class="err">complexi</span><span class="kc">t</span><span class="err">y</span><span class="w"> </span><span class="p">[</span><span class="err">so</span><span class="kc">nar</span><span class="err">qube</span><span class="p">]</span><span class="w"> </span><span class="mi">-</span><span class="w"> </span><span class="err">comme</span><span class="kc">nt</span><span class="err">_li</span><span class="kc">nes</span><span class="err">_de</span><span class="kc">ns</span><span class="err">i</span><span class="kc">t</span><span class="err">y</span><span class="w"> </span><span class="p">[</span><span class="err">so</span><span class="kc">nar</span><span class="err">qube</span><span class="p">]</span><span class="w"> </span><span class="mi">-</span><span class="w"> </span><span class="err">duplica</span><span class="kc">te</span><span class="err">d_li</span><span class="kc">nes</span><span class="err">_de</span><span class="kc">ns</span><span class="err">i</span><span class="kc">t</span><span class="err">y</span><span class="w"> </span><span class="p">[</span><span class="err">so</span><span class="kc">nar</span><span class="err">qube</span><span class="p">]</span>
+
+<span class="err">```sh</span>
+<span class="err">msgram</span><span class="w"> </span><span class="err">ex</span><span class="kc">tra</span><span class="err">c</span><span class="kc">t</span><span class="w"> </span><span class="mi">-</span><span class="err">h</span>
+</code></pre></div>
+<p><center></p>
+<p><img alt="msgram_extract" src="../../assets/images/msgram_extract.png" /></p>
+<p></center></p>
+<h4 id="233-msgram-calculate">2.3.3 msgram calculate</h4>
+<p align="justify" style="text-indent: 20px">
+    Responsável por calcular, através do <a href="https://pypi.org/project/msgram-core/">msgram-core</a> (versão empacotada dos cálculos), a qualidade dos arquivos extraídos. Também, por esse comando o MeasureSoftGram extrai os dados (CSV ou JSON) calculados.
+</p>
+
+<div class="highlight"><pre><span></span><code>msgram<span class="w"> </span>calculate<span class="w"> </span>-h
+</code></pre></div>
+<p><center></p>
+<p><img alt="msgram_calculate" src="../../assets/images/msgram_calculate.png" /></p>
+<p></center></p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": "navigation.tabs", "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.aecac24b.min.js"></script>
+      
+    
+  </body>
+</html>
